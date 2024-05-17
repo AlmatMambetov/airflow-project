@@ -1,0 +1,90 @@
+[2024-04-21T09:20:57.150+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [queued]>
+[2024-04-21T09:20:57.164+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [queued]>
+[2024-04-21T09:20:57.165+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-21T09:20:57.183+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_rub> on 2024-04-20 00:00:00+00:00
+[2024-04-21T09:20:57.189+0000] {standard_task_runner.py:60} INFO - Started process 1284 to run task
+[2024-04-21T09:20:57.193+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'fetch_data_rub', 'scheduled__2024-04-20T00:00:00+00:00', '--job-id', '933', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmp5ml68puz']
+[2024-04-21T09:20:57.195+0000] {standard_task_runner.py:88} INFO - Job 933: Subtask fetch_data_rub
+[2024-04-21T09:20:57.267+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [running]> on host 31aa6d9ea6ff
+[2024-04-21T09:20:57.379+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='fetch_data_rub' AIRFLOW_CTX_EXECUTION_DATE='2024-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-20T00:00:00+00:00'
+[2024-04-21T09:20:57.409+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-21T09:20:57.436+0000] {sql.py:572} INFO - Done loading. Loaded a total of 43 rows into stage.currency_parsing_rub
+[2024-04-21T09:20:57.437+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-04-21T09:20:57.449+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=fetch_data_rub, execution_date=20240420T000000, start_date=20240421T092057, end_date=20240421T092057
+[2024-04-21T09:20:57.487+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-21T09:20:57.508+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-21T10:15:13.507+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [queued]>
+[2024-04-21T10:15:13.522+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [queued]>
+[2024-04-21T10:15:13.523+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-21T10:15:13.544+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_rub> on 2024-04-20 00:00:00+00:00
+[2024-04-21T10:15:13.550+0000] {standard_task_runner.py:60} INFO - Started process 1435 to run task
+[2024-04-21T10:15:13.555+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'fetch_data_rub', 'scheduled__2024-04-20T00:00:00+00:00', '--job-id', '960', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmpejq_15py']
+[2024-04-21T10:15:13.559+0000] {standard_task_runner.py:88} INFO - Job 960: Subtask fetch_data_rub
+[2024-04-21T10:15:13.631+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [running]> on host 31aa6d9ea6ff
+[2024-04-21T10:15:13.740+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='fetch_data_rub' AIRFLOW_CTX_EXECUTION_DATE='2024-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-20T00:00:00+00:00'
+[2024-04-21T10:15:13.771+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-21T10:15:13.795+0000] {sql.py:572} INFO - Done loading. Loaded a total of 43 rows into stage.currency_parsing_rub
+[2024-04-21T10:15:13.796+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-04-21T10:15:13.807+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=fetch_data_rub, execution_date=20240420T000000, start_date=20240421T101513, end_date=20240421T101513
+[2024-04-21T10:15:13.848+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-21T10:15:13.872+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-21T10:18:25.730+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [queued]>
+[2024-04-21T10:18:25.751+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [queued]>
+[2024-04-21T10:18:25.751+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-21T10:18:25.777+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_rub> on 2024-04-20 00:00:00+00:00
+[2024-04-21T10:18:25.784+0000] {standard_task_runner.py:60} INFO - Started process 1523 to run task
+[2024-04-21T10:18:25.791+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'fetch_data_rub', 'scheduled__2024-04-20T00:00:00+00:00', '--job-id', '980', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmp9zafwzeu']
+[2024-04-21T10:18:25.797+0000] {standard_task_runner.py:88} INFO - Job 980: Subtask fetch_data_rub
+[2024-04-21T10:18:25.901+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [running]> on host 31aa6d9ea6ff
+[2024-04-21T10:18:26.103+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='fetch_data_rub' AIRFLOW_CTX_EXECUTION_DATE='2024-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-20T00:00:00+00:00'
+[2024-04-21T10:18:26.168+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-21T10:18:26.203+0000] {sql.py:572} INFO - Done loading. Loaded a total of 43 rows into stage.currency_parsing_rub
+[2024-04-21T10:18:26.204+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-04-21T10:18:26.221+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=fetch_data_rub, execution_date=20240420T000000, start_date=20240421T101825, end_date=20240421T101826
+[2024-04-21T10:18:26.297+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-21T10:18:26.335+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-21T10:39:00.783+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [queued]>
+[2024-04-21T10:39:00.808+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [queued]>
+[2024-04-21T10:39:00.809+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-21T10:39:00.842+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_rub> on 2024-04-20 00:00:00+00:00
+[2024-04-21T10:39:00.850+0000] {standard_task_runner.py:60} INFO - Started process 245 to run task
+[2024-04-21T10:39:00.858+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'fetch_data_rub', 'scheduled__2024-04-20T00:00:00+00:00', '--job-id', '1002', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmpqoon_5zn']
+[2024-04-21T10:39:00.863+0000] {standard_task_runner.py:88} INFO - Job 1002: Subtask fetch_data_rub
+[2024-04-21T10:39:00.957+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [running]> on host e671688b1343
+[2024-04-21T10:39:01.108+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='fetch_data_rub' AIRFLOW_CTX_EXECUTION_DATE='2024-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-20T00:00:00+00:00'
+[2024-04-21T10:39:01.148+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-21T10:39:01.185+0000] {sql.py:572} INFO - Done loading. Loaded a total of 43 rows into stage.currency_parsing_rub
+[2024-04-21T10:39:01.186+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-04-21T10:39:01.202+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=fetch_data_rub, execution_date=20240420T000000, start_date=20240421T103900, end_date=20240421T103901
+[2024-04-21T10:39:01.272+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-21T10:39:01.309+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-21T11:06:42.781+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [queued]>
+[2024-04-21T11:06:42.807+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [queued]>
+[2024-04-21T11:06:42.809+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-21T11:06:42.838+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_rub> on 2024-04-20 00:00:00+00:00
+[2024-04-21T11:06:42.846+0000] {standard_task_runner.py:60} INFO - Started process 2817 to run task
+[2024-04-21T11:06:42.854+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'fetch_data_rub', 'scheduled__2024-04-20T00:00:00+00:00', '--job-id', '2119', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmp88dz84wx']
+[2024-04-21T11:06:42.861+0000] {standard_task_runner.py:88} INFO - Job 2119: Subtask fetch_data_rub
+[2024-04-21T11:06:42.965+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [running]> on host e671688b1343
+[2024-04-21T11:06:43.115+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='fetch_data_rub' AIRFLOW_CTX_EXECUTION_DATE='2024-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-20T00:00:00+00:00'
+[2024-04-21T11:06:43.160+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-21T11:06:43.184+0000] {sql.py:572} INFO - Done loading. Loaded a total of 43 rows into stage.currency_parsing_rub
+[2024-04-21T11:06:43.186+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-04-21T11:06:43.201+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=fetch_data_rub, execution_date=20240420T000000, start_date=20240421T110642, end_date=20240421T110643
+[2024-04-21T11:06:43.270+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-21T11:06:43.299+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-27T12:28:12.244+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [queued]>
+[2024-04-27T12:28:12.313+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [queued]>
+[2024-04-27T12:28:12.316+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-27T12:28:12.422+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_rub> on 2024-04-20 00:00:00+00:00
+[2024-04-27T12:28:12.454+0000] {standard_task_runner.py:60} INFO - Started process 2369 to run task
+[2024-04-27T12:28:12.473+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'fetch_data_rub', 'scheduled__2024-04-20T00:00:00+00:00', '--job-id', '2489', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmpyqyvoiv3']
+[2024-04-27T12:28:12.483+0000] {standard_task_runner.py:88} INFO - Job 2489: Subtask fetch_data_rub
+[2024-04-27T12:28:12.997+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-04-20T00:00:00+00:00 [running]> on host 65a8688265d1
+[2024-04-27T12:28:13.902+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='fetch_data_rub' AIRFLOW_CTX_EXECUTION_DATE='2024-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-20T00:00:00+00:00'
+[2024-04-27T12:28:14.236+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-27T12:28:14.323+0000] {sql.py:572} INFO - Done loading. Loaded a total of 43 rows into stage.currency_parsing_rub
+[2024-04-27T12:28:14.327+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-04-27T12:28:14.479+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=fetch_data_rub, execution_date=20240420T000000, start_date=20240427T122812, end_date=20240427T122814
+[2024-04-27T12:28:14.589+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-27T12:28:14.869+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

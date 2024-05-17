@@ -1,0 +1,798 @@
+[2024-04-19T05:28:00.372+0000] {processor.py:161} INFO - Started process (PID=3626) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:28:00.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:28:00.398+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:28:00.394+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:28:00.623+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:28:00.854+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:28:00.853+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:28:01.130+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:28:01.129+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:28:01.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.979 seconds
+[2024-04-19T05:28:31.891+0000] {processor.py:161} INFO - Started process (PID=3640) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:28:31.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:28:31.897+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:28:31.896+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:28:31.946+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:28:32.003+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:28:32.003+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:28:32.051+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:28:32.051+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:28:32.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.211 seconds
+[2024-04-19T05:29:02.218+0000] {processor.py:161} INFO - Started process (PID=3655) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:29:02.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:29:02.227+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:29:02.225+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:29:02.293+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:29:02.357+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:29:02.356+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:29:02.561+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:29:02.559+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:29:02.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.496 seconds
+[2024-04-19T05:29:33.338+0000] {processor.py:161} INFO - Started process (PID=3670) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:29:33.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:29:33.342+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:29:33.342+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:29:33.389+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:29:33.426+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:29:33.426+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:29:33.460+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:29:33.459+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:29:33.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.156 seconds
+[2024-04-19T05:30:04.199+0000] {processor.py:161} INFO - Started process (PID=3686) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:30:04.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:30:04.204+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:30:04.203+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:30:04.248+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:30:04.283+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:30:04.283+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:30:04.312+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:30:04.311+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:30:04.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.146 seconds
+[2024-04-19T05:30:35.164+0000] {processor.py:161} INFO - Started process (PID=3702) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:30:35.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:30:35.170+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:30:35.169+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:30:35.242+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:30:35.327+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:30:35.326+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:30:35.412+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:30:35.411+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:30:35.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.340 seconds
+[2024-04-19T05:31:06.055+0000] {processor.py:161} INFO - Started process (PID=3718) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:31:06.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:31:06.062+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:31:06.062+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:31:06.118+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:31:06.171+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:31:06.170+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:31:06.208+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:31:06.207+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:31:06.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.199 seconds
+[2024-04-19T05:31:37.239+0000] {processor.py:161} INFO - Started process (PID=3734) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:31:37.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:31:37.255+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:31:37.255+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:31:37.366+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:31:37.430+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:31:37.429+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:31:37.474+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:31:37.473+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:31:37.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.299 seconds
+[2024-04-19T05:32:08.242+0000] {processor.py:161} INFO - Started process (PID=3750) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:32:08.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:32:08.248+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:32:08.247+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:32:08.311+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:32:08.394+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:32:08.394+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:32:08.438+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:32:08.437+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:32:08.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.263 seconds
+[2024-04-19T05:32:39.173+0000] {processor.py:161} INFO - Started process (PID=3766) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:32:39.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:32:39.179+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:32:39.178+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:32:39.479+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:32:39.604+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:32:39.603+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:32:39.701+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:32:39.701+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:32:39.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.614 seconds
+[2024-04-19T05:33:10.647+0000] {processor.py:161} INFO - Started process (PID=3782) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:33:10.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:33:10.663+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:33:10.663+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:33:10.994+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:33:11.191+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:33:11.191+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:33:11.339+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:33:11.338+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:33:11.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.839 seconds
+[2024-04-19T05:33:41.895+0000] {processor.py:161} INFO - Started process (PID=3797) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:33:41.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:33:41.903+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:33:41.902+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:33:42.181+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:33:42.410+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:33:42.410+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:33:42.569+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:33:42.568+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:33:42.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.770 seconds
+[2024-04-19T05:34:13.431+0000] {processor.py:161} INFO - Started process (PID=3813) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:34:13.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:34:13.436+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:34:13.436+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:34:13.494+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:34:13.535+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:34:13.535+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:34:13.570+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:34:13.569+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:34:13.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.175 seconds
+[2024-04-19T05:34:43.752+0000] {processor.py:161} INFO - Started process (PID=3830) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:34:43.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:34:43.757+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:34:43.756+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:34:43.805+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:34:43.859+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:34:43.859+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:34:43.901+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:34:43.901+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:34:43.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.185 seconds
+[2024-04-19T05:35:14.478+0000] {processor.py:161} INFO - Started process (PID=3846) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:35:14.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:35:14.483+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:35:14.482+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:35:14.530+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:35:14.578+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:35:14.578+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:35:14.615+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:35:14.615+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:35:14.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.173 seconds
+[2024-04-19T05:35:45.168+0000] {processor.py:161} INFO - Started process (PID=3869) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:35:45.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:35:45.175+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:35:45.173+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:35:45.241+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:35:45.298+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:35:45.298+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:35:45.355+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:35:45.355+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:35:45.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.234 seconds
+[2024-04-19T05:36:15.505+0000] {processor.py:161} INFO - Started process (PID=3885) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:36:15.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:36:15.513+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:36:15.512+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:36:15.565+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:36:15.612+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:36:15.611+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:36:15.650+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:36:15.650+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:36:15.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.195 seconds
+[2024-04-19T05:36:45.926+0000] {processor.py:161} INFO - Started process (PID=3901) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:36:45.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:36:45.975+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:36:45.972+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:36:46.094+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:36:46.185+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:36:46.185+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:36:46.226+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:36:46.226+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:36:46.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.344 seconds
+[2024-04-19T05:37:16.560+0000] {processor.py:161} INFO - Started process (PID=3918) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:37:16.562+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:37:16.564+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:37:16.564+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:37:16.615+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:37:16.669+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:37:16.668+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:37:16.712+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:37:16.712+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:37:16.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.185 seconds
+[2024-04-19T05:37:46.827+0000] {processor.py:161} INFO - Started process (PID=3933) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:37:46.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:37:46.831+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:37:46.831+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:37:46.871+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:37:46.906+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:37:46.906+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:37:46.935+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:37:46.935+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:37:46.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.139 seconds
+[2024-04-19T05:38:17.080+0000] {processor.py:161} INFO - Started process (PID=3949) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:38:17.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:38:17.086+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:38:17.085+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:38:17.130+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:38:17.179+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:38:17.179+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:38:17.209+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:38:17.209+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:38:17.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.167 seconds
+[2024-04-19T05:38:47.421+0000] {processor.py:161} INFO - Started process (PID=3965) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:38:47.422+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:38:47.426+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:38:47.425+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:38:47.469+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:38:47.507+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:38:47.507+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:38:47.552+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:38:47.552+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:38:47.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.166 seconds
+[2024-04-19T05:39:17.691+0000] {processor.py:161} INFO - Started process (PID=3979) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:39:17.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:39:17.696+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:39:17.696+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:39:17.743+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:39:17.787+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:39:17.786+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:39:17.820+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:39:17.820+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:39:17.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.165 seconds
+[2024-04-19T05:39:48.475+0000] {processor.py:161} INFO - Started process (PID=3995) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:39:48.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:39:48.480+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:39:48.480+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:39:48.528+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:39:48.569+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:39:48.569+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:39:48.605+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:39:48.604+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:39:48.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.163 seconds
+[2024-04-19T05:40:18.815+0000] {processor.py:161} INFO - Started process (PID=4011) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:40:18.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:40:18.822+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:40:18.821+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:40:18.871+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:40:18.911+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:40:18.910+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:40:18.956+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:40:18.956+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:40:18.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.183 seconds
+[2024-04-19T05:40:49.108+0000] {processor.py:161} INFO - Started process (PID=4026) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:40:49.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:40:49.113+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:40:49.113+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:40:49.157+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:40:49.194+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:40:49.194+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:40:49.232+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:40:49.232+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:40:49.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.157 seconds
+[2024-04-19T05:41:19.597+0000] {processor.py:161} INFO - Started process (PID=4042) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:41:19.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:41:19.602+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:41:19.601+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:41:19.642+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:41:19.681+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:41:19.681+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:41:19.711+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:41:19.710+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:41:19.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.147 seconds
+[2024-04-19T05:41:49.821+0000] {processor.py:161} INFO - Started process (PID=4058) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:41:49.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:41:49.825+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:41:49.825+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:41:49.861+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:41:49.894+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:41:49.894+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:41:49.925+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:41:49.924+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:41:49.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.136 seconds
+[2024-04-19T05:42:20.748+0000] {processor.py:161} INFO - Started process (PID=4074) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:42:20.750+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:42:20.753+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:42:20.752+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:42:20.795+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:42:20.829+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:42:20.828+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:42:20.859+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:42:20.858+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:42:20.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.145 seconds
+[2024-04-19T05:42:51.421+0000] {processor.py:161} INFO - Started process (PID=4090) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:42:51.423+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:42:51.426+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:42:51.425+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:42:51.470+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:42:51.513+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:42:51.513+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:42:51.544+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:42:51.544+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:42:51.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.163 seconds
+[2024-04-19T05:43:21.895+0000] {processor.py:161} INFO - Started process (PID=4106) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:43:21.897+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:43:21.900+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:43:21.899+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:43:21.946+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:43:21.981+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:43:21.980+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:43:22.012+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:43:22.012+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:43:22.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.158 seconds
+[2024-04-19T05:43:52.451+0000] {processor.py:161} INFO - Started process (PID=4120) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:43:52.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:43:52.457+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:43:52.457+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:43:52.506+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:43:52.549+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:43:52.549+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:43:52.584+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:43:52.584+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:43:52.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.170 seconds
+[2024-04-19T05:44:23.311+0000] {processor.py:161} INFO - Started process (PID=4135) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:44:23.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:44:23.315+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:44:23.314+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:44:23.351+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:44:23.385+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:44:23.385+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:44:23.415+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:44:23.415+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:44:23.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.138 seconds
+[2024-04-19T05:44:54.031+0000] {processor.py:161} INFO - Started process (PID=4150) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:44:54.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:44:54.055+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:44:54.054+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:44:54.213+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:44:54.374+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:44:54.373+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:44:54.537+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:44:54.537+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:44:54.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.631 seconds
+[2024-04-19T05:45:25.051+0000] {processor.py:161} INFO - Started process (PID=4166) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:45:25.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:45:25.056+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:45:25.056+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:45:25.113+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:45:25.164+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:45:25.164+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:45:25.203+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:45:25.202+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:45:25.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.454 seconds
+[2024-04-19T05:45:56.098+0000] {processor.py:161} INFO - Started process (PID=4182) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:45:56.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:45:56.102+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:45:56.102+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:45:56.146+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:45:56.183+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:45:56.183+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:45:56.219+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:45:56.219+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:45:56.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.155 seconds
+[2024-04-19T05:46:26.467+0000] {processor.py:161} INFO - Started process (PID=4198) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:46:26.469+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:46:26.472+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:46:26.471+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:46:26.510+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:46:26.545+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:46:26.544+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:46:26.574+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:46:26.574+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:46:26.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.139 seconds
+[2024-04-19T05:46:56.864+0000] {processor.py:161} INFO - Started process (PID=4214) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:46:56.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:46:56.868+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:46:56.868+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:46:56.916+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:46:56.952+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:46:56.952+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:46:56.981+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:46:56.981+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:46:57.150+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.291 seconds
+[2024-04-19T05:47:27.374+0000] {processor.py:161} INFO - Started process (PID=4230) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:47:27.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:47:27.379+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:47:27.378+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:47:27.419+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:47:27.453+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:47:27.453+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:47:27.483+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:47:27.483+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:47:27.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.141 seconds
+[2024-04-19T05:47:57.598+0000] {processor.py:161} INFO - Started process (PID=4245) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:47:57.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:47:57.604+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:47:57.603+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:47:57.648+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:47:57.693+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:47:57.693+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:47:57.730+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:47:57.730+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:47:57.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.168 seconds
+[2024-04-19T05:48:28.444+0000] {processor.py:161} INFO - Started process (PID=4261) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:48:28.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:48:28.449+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:48:28.449+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:48:28.497+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:48:28.538+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:48:28.538+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:48:28.576+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:48:28.576+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:48:28.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.329 seconds
+[2024-04-19T05:48:59.491+0000] {processor.py:161} INFO - Started process (PID=4277) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:48:59.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:48:59.497+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:48:59.496+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:48:59.544+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:48:59.586+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:48:59.585+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:48:59.626+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:48:59.626+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:48:59.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.170 seconds
+[2024-04-19T05:49:29.716+0000] {processor.py:161} INFO - Started process (PID=4292) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:49:29.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:49:29.721+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:49:29.720+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:49:29.765+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:49:29.799+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:49:29.799+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:49:29.828+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:49:29.828+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:49:29.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.147 seconds
+[2024-04-19T05:49:59.946+0000] {processor.py:161} INFO - Started process (PID=4308) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:49:59.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:49:59.951+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:49:59.950+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:49:59.994+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:50:00.034+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:50:00.033+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:50:00.072+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:50:00.071+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:50:00.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.294 seconds
+[2024-04-19T05:50:30.853+0000] {processor.py:161} INFO - Started process (PID=4324) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:50:30.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:50:30.859+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:50:30.859+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:50:30.913+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:50:30.963+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:50:30.962+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:50:31.005+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:50:31.004+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:50:31.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.192 seconds
+[2024-04-19T05:51:01.197+0000] {processor.py:161} INFO - Started process (PID=4340) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:51:01.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:51:01.203+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:51:01.202+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:51:01.256+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:51:01.299+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:51:01.298+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:51:01.340+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:51:01.340+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:51:01.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.182 seconds
+[2024-04-19T05:51:31.831+0000] {processor.py:161} INFO - Started process (PID=4356) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:51:31.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:51:31.840+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:51:31.838+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:51:31.892+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:51:31.938+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:51:31.938+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:51:31.981+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:51:31.981+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:51:32.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.379 seconds
+[2024-04-19T05:52:02.332+0000] {processor.py:161} INFO - Started process (PID=4372) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:52:02.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:52:02.339+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:52:02.338+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:52:02.397+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:52:02.454+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:52:02.454+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:52:02.501+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:52:02.501+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:52:02.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.212 seconds
+[2024-04-19T05:52:32.873+0000] {processor.py:161} INFO - Started process (PID=4388) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:52:32.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:52:32.878+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:52:32.877+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:52:32.927+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:52:32.971+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:52:32.970+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:52:33.002+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:52:33.001+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:52:33.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.164 seconds
+[2024-04-19T05:53:03.773+0000] {processor.py:161} INFO - Started process (PID=4403) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:53:03.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:53:03.778+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:53:03.778+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:53:03.829+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:53:03.868+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:53:03.868+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:53:03.907+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:53:03.907+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:53:04.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.334 seconds
+[2024-04-19T05:53:34.717+0000] {processor.py:161} INFO - Started process (PID=4419) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:53:34.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:53:34.723+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:53:34.722+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:53:34.780+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:53:34.873+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:53:34.873+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:53:34.917+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:53:34.917+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:53:34.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.245 seconds
+[2024-04-19T05:54:05.586+0000] {processor.py:161} INFO - Started process (PID=4435) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:54:05.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:54:05.591+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:54:05.590+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:54:05.641+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:54:05.682+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:54:05.682+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:54:05.723+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:54:05.722+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:54:05.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.176 seconds
+[2024-04-19T05:54:35.875+0000] {processor.py:161} INFO - Started process (PID=4451) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:54:35.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:54:35.880+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:54:35.880+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:54:35.930+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:54:35.970+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:54:35.970+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:54:36.005+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:54:36.005+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:54:36.198+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.329 seconds
+[2024-04-19T05:55:06.329+0000] {processor.py:161} INFO - Started process (PID=4468) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:55:06.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:55:06.338+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:55:06.337+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:55:06.405+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:55:06.470+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:55:06.469+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:55:06.799+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:55:06.799+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:55:06.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.532 seconds
+[2024-04-19T05:55:37.194+0000] {processor.py:161} INFO - Started process (PID=4484) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:55:37.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:55:37.200+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:55:37.199+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:55:37.250+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:55:37.298+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:55:37.297+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:55:37.339+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:55:37.339+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:55:37.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.188 seconds
+[2024-04-19T05:56:07.554+0000] {processor.py:161} INFO - Started process (PID=4500) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:56:07.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:56:07.560+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:56:07.559+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:56:07.615+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:56:07.660+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:56:07.660+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:56:07.705+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:56:07.705+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:56:07.742+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.195 seconds
+[2024-04-19T05:56:38.072+0000] {processor.py:161} INFO - Started process (PID=4516) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:56:38.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:56:38.077+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:56:38.077+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:56:38.129+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:56:38.181+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:56:38.181+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:56:38.497+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:56:38.496+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:56:38.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.477 seconds
+[2024-04-19T05:57:09.085+0000] {processor.py:161} INFO - Started process (PID=4532) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:57:09.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:57:09.091+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:57:09.090+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:57:09.146+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:57:09.191+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:57:09.191+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:57:09.368+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:57:09.368+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:57:09.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.319 seconds
+[2024-04-19T05:57:39.590+0000] {processor.py:161} INFO - Started process (PID=4548) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:57:39.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:57:39.600+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:57:39.599+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:57:39.670+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:57:39.717+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:57:39.717+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:57:39.770+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:57:39.769+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:57:39.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.221 seconds
+[2024-04-19T05:58:10.067+0000] {processor.py:161} INFO - Started process (PID=4564) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:58:10.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:58:10.071+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:58:10.071+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:58:10.123+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:58:10.169+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:58:10.169+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:58:10.212+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:58:10.212+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:58:10.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.354 seconds
+[2024-04-19T05:58:40.942+0000] {processor.py:161} INFO - Started process (PID=4581) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:58:40.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:58:40.948+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:58:40.947+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:58:40.998+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:58:41.039+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:58:41.038+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:58:41.354+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:58:41.354+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:58:41.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.452 seconds
+[2024-04-19T05:59:11.941+0000] {processor.py:161} INFO - Started process (PID=4597) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:59:11.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:59:11.950+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:59:11.949+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:59:12.009+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:59:12.055+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:59:12.055+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:59:12.089+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:59:12.089+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:59:12.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.186 seconds
+[2024-04-19T05:59:43.067+0000] {processor.py:161} INFO - Started process (PID=4613) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:59:43.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T05:59:43.074+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:59:43.073+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:59:43.130+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T05:59:43.178+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:59:43.178+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T05:59:43.212+0000] {logging_mixin.py:188} INFO - [2024-04-19T05:59:43.212+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T05:59:43.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.184 seconds
+[2024-04-19T06:00:13.626+0000] {processor.py:161} INFO - Started process (PID=4629) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:00:13.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:00:13.632+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:00:13.632+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:00:13.682+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:00:13.724+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:00:13.724+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:00:13.919+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:00:13.918+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:00:13.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.329 seconds
+[2024-04-19T06:00:44.833+0000] {processor.py:161} INFO - Started process (PID=4645) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:00:44.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:00:44.841+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:00:44.840+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:00:44.905+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:00:44.960+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:00:44.959+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:00:45.009+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:00:45.008+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:00:45.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.232 seconds
+[2024-04-19T06:01:15.287+0000] {processor.py:161} INFO - Started process (PID=4660) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:01:15.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:01:15.294+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:01:15.294+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:01:15.401+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:01:15.461+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:01:15.460+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:01:15.524+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:01:15.524+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:01:15.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.296 seconds
+[2024-04-19T06:01:45.914+0000] {processor.py:161} INFO - Started process (PID=4676) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:01:45.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:01:45.920+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:01:45.919+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:01:45.973+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:01:46.023+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:01:46.023+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:01:46.244+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:01:46.243+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:01:46.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.373 seconds
+[2024-04-19T06:02:16.604+0000] {processor.py:161} INFO - Started process (PID=4692) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:02:16.606+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:02:16.609+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:02:16.609+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:02:16.657+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:02:16.855+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:02:16.855+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:02:16.886+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:02:16.885+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:02:16.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.315 seconds
+[2024-04-19T06:02:47.622+0000] {processor.py:161} INFO - Started process (PID=4708) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:02:47.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:02:47.630+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:02:47.629+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:02:47.687+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:02:47.741+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:02:47.741+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:02:47.788+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:02:47.788+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:02:47.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.210 seconds
+[2024-04-19T06:03:18.000+0000] {processor.py:161} INFO - Started process (PID=4724) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:03:18.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:03:18.008+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:03:18.007+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:03:18.085+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:03:18.199+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:03:18.199+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:03:18.418+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:03:18.418+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:03:18.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.456 seconds
+[2024-04-19T06:03:48.853+0000] {processor.py:161} INFO - Started process (PID=4740) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:03:48.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:03:48.866+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:03:48.866+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:03:48.927+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:03:48.984+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:03:48.984+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:03:49.267+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:03:49.266+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:03:49.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.469 seconds
+[2024-04-19T06:04:19.528+0000] {processor.py:161} INFO - Started process (PID=4756) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:04:19.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:04:19.534+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:04:19.533+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:04:19.593+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:04:19.817+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:04:19.817+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:04:19.848+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:04:19.847+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:04:19.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.354 seconds
+[2024-04-19T06:04:49.957+0000] {processor.py:161} INFO - Started process (PID=4772) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:04:49.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:04:49.961+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:04:49.961+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:04:50.002+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:04:50.036+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:04:50.036+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:04:50.066+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:04:50.066+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:04:50.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.143 seconds
+[2024-04-19T06:05:20.427+0000] {processor.py:161} INFO - Started process (PID=4788) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:05:20.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:05:20.437+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:05:20.436+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:05:20.497+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:05:20.539+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:05:20.539+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:05:20.767+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:05:20.766+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:05:20.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.377 seconds
+[2024-04-19T06:05:51.261+0000] {processor.py:161} INFO - Started process (PID=4805) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:05:51.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:05:51.266+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:05:51.265+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:05:51.308+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:05:51.370+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:05:51.370+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:05:51.716+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:05:51.716+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:05:51.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.535 seconds
+[2024-04-19T06:06:22.305+0000] {processor.py:161} INFO - Started process (PID=4820) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:06:22.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:06:22.310+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:06:22.310+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:06:22.364+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:06:22.736+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:06:22.735+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:06:22.923+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:06:22.923+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:06:22.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.665 seconds
+[2024-04-19T06:06:53.211+0000] {processor.py:161} INFO - Started process (PID=4841) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:06:53.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:06:53.220+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:06:53.219+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:06:53.274+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:06:53.317+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:06:53.316+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:06:53.351+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:06:53.351+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:06:53.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.179 seconds
+[2024-04-19T06:07:23.870+0000] {processor.py:161} INFO - Started process (PID=4857) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:07:23.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:07:23.875+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:07:23.874+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:07:23.912+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:07:23.946+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:07:23.946+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:07:24.119+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:07:24.118+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:07:24.146+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.280 seconds
+[2024-04-19T06:07:54.332+0000] {processor.py:161} INFO - Started process (PID=4873) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:07:54.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:07:54.337+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:07:54.336+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:07:54.400+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:07:54.748+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:07:54.747+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:07:54.879+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:07:54.878+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:07:54.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.642 seconds
+[2024-04-19T06:08:26.278+0000] {processor.py:161} INFO - Started process (PID=4889) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:08:26.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:08:26.286+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:08:26.285+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:08:26.370+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:08:26.421+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:08:26.420+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:08:26.462+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:08:26.462+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:08:26.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.301 seconds
+[2024-04-19T06:08:56.866+0000] {processor.py:161} INFO - Started process (PID=4905) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:08:56.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:08:56.875+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:08:56.874+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:08:56.939+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:08:56.990+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:08:56.990+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:08:57.249+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:08:57.248+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:08:57.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.428 seconds
+[2024-04-19T06:09:27.517+0000] {processor.py:161} INFO - Started process (PID=4922) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:09:27.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:09:27.523+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:09:27.522+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:09:27.588+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:09:27.864+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:09:27.864+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:09:27.911+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:09:27.910+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:09:27.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.447 seconds
+[2024-04-19T06:09:58.118+0000] {processor.py:161} INFO - Started process (PID=4937) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:09:58.120+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:09:58.124+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:09:58.123+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:09:58.402+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:09:58.456+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:09:58.456+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:09:58.508+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:09:58.508+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:09:58.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.436 seconds
+[2024-04-19T06:10:28.797+0000] {processor.py:161} INFO - Started process (PID=4953) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:10:28.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:10:28.801+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:10:28.800+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:10:28.843+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:10:28.884+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:10:28.884+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:10:28.928+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:10:28.928+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:10:28.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.165 seconds
+[2024-04-19T06:10:59.152+0000] {processor.py:161} INFO - Started process (PID=4970) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:10:59.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:10:59.163+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:10:59.162+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:10:59.226+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:10:59.269+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:10:59.269+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:10:59.305+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:10:59.305+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:10:59.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.191 seconds
+[2024-04-19T06:11:29.570+0000] {processor.py:161} INFO - Started process (PID=4986) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:11:29.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:11:29.575+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:11:29.575+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:11:29.625+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:11:29.670+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:11:29.670+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:11:29.723+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:11:29.722+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:11:29.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.328 seconds
+[2024-04-19T06:12:00.289+0000] {processor.py:161} INFO - Started process (PID=5003) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:12:00.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:12:00.294+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:12:00.293+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:12:00.336+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:12:00.370+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:12:00.369+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:12:00.398+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:12:00.398+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:12:00.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.143 seconds
+[2024-04-19T06:12:30.631+0000] {processor.py:161} INFO - Started process (PID=5019) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:12:30.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:12:30.636+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:12:30.635+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:12:30.689+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:12:30.725+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:12:30.725+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:12:30.754+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:12:30.753+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:12:30.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.158 seconds
+[2024-04-19T06:13:01.547+0000] {processor.py:161} INFO - Started process (PID=5035) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:13:01.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:13:01.552+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:13:01.552+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:13:01.625+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:13:01.859+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:13:01.859+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:13:01.954+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:13:01.953+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:13:01.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.453 seconds
+[2024-04-19T06:13:32.493+0000] {processor.py:161} INFO - Started process (PID=5051) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:13:32.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:13:32.498+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:13:32.498+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:13:32.551+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:13:32.605+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:13:32.605+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:13:32.653+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:13:32.652+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:13:32.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.201 seconds
+[2024-04-19T06:14:02.933+0000] {processor.py:161} INFO - Started process (PID=5067) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:14:02.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:14:02.939+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:14:02.938+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:14:02.989+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:14:03.030+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:14:03.030+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:14:03.064+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:14:03.063+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:14:03.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.168 seconds
+[2024-04-19T06:14:33.730+0000] {processor.py:161} INFO - Started process (PID=5083) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:14:33.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:14:33.735+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:14:33.735+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:14:33.779+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:14:33.819+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:14:33.819+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:14:33.859+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:14:33.859+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:14:33.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.168 seconds
+[2024-04-19T06:15:04.241+0000] {processor.py:161} INFO - Started process (PID=5100) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:15:04.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:15:04.246+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:15:04.246+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:15:04.294+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:15:04.335+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:15:04.334+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:15:04.370+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:15:04.370+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:15:04.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.163 seconds
+[2024-04-19T06:15:34.697+0000] {processor.py:161} INFO - Started process (PID=5116) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:15:34.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:15:34.702+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:15:34.701+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:15:34.749+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:15:34.793+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:15:34.793+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:15:34.826+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:15:34.826+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:15:34.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.168 seconds
+[2024-04-19T06:16:05.045+0000] {processor.py:161} INFO - Started process (PID=5132) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:16:05.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:16:05.052+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:16:05.051+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:16:05.106+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:16:05.144+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:16:05.144+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:16:05.190+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:16:05.190+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:16:05.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.179 seconds
+[2024-04-19T06:16:35.579+0000] {processor.py:161} INFO - Started process (PID=5146) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:16:35.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:16:35.585+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:16:35.584+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:16:35.644+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:16:35.688+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:16:35.688+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:16:35.723+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:16:35.723+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:16:35.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.181 seconds
+[2024-04-19T06:17:06.164+0000] {processor.py:161} INFO - Started process (PID=5161) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:17:06.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:17:06.169+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:17:06.169+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:17:06.228+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:17:06.271+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:17:06.270+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:17:06.310+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:17:06.310+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:17:06.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.185 seconds
+[2024-04-19T06:17:36.553+0000] {processor.py:161} INFO - Started process (PID=5176) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:17:36.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:17:36.560+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:17:36.559+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:17:36.670+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:17:36.741+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:17:36.741+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:17:36.784+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:17:36.783+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:17:36.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.274 seconds
+[2024-04-19T06:18:06.919+0000] {processor.py:161} INFO - Started process (PID=5193) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:18:06.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:18:06.924+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:18:06.924+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:18:06.977+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:18:07.031+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:18:07.030+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:18:07.074+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:18:07.073+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:18:07.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.198 seconds
+[2024-04-19T06:18:37.297+0000] {processor.py:161} INFO - Started process (PID=5209) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:18:37.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:18:37.302+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:18:37.302+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:18:37.365+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:18:37.417+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:18:37.417+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:18:37.459+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:18:37.458+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:18:37.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.210 seconds
+[2024-04-19T06:19:07.660+0000] {processor.py:161} INFO - Started process (PID=5225) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:19:07.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:19:07.665+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:19:07.665+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:19:07.717+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:19:07.766+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:19:07.766+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:19:07.803+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:19:07.802+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:19:07.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.194 seconds
+[2024-04-19T06:19:38.123+0000] {processor.py:161} INFO - Started process (PID=5241) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:19:38.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:19:38.134+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:19:38.133+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:19:38.209+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:19:38.279+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:19:38.279+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:19:38.332+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:19:38.332+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:19:38.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.274 seconds
+[2024-04-19T06:20:08.505+0000] {processor.py:161} INFO - Started process (PID=5256) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:20:08.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:20:08.512+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:20:08.511+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:20:08.564+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:20:08.606+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:20:08.606+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:20:08.642+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:20:08.642+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:20:08.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.177 seconds
+[2024-04-19T06:20:39.045+0000] {processor.py:161} INFO - Started process (PID=5272) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:20:39.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:20:39.050+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:20:39.049+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:20:39.101+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:20:39.140+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:20:39.140+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:20:39.176+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:20:39.176+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:20:39.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.175 seconds
+[2024-04-19T06:21:09.904+0000] {processor.py:161} INFO - Started process (PID=5288) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:21:09.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:21:09.910+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:21:09.909+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:21:09.964+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:21:10.005+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:21:10.004+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:21:10.040+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:21:10.040+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:21:10.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.172 seconds
+[2024-04-19T06:21:40.266+0000] {processor.py:161} INFO - Started process (PID=5304) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:21:40.268+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:21:40.272+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:21:40.271+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:21:40.326+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:21:40.372+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:21:40.371+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:21:40.414+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:21:40.411+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:21:40.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.249 seconds
+[2024-04-19T06:22:10.742+0000] {processor.py:161} INFO - Started process (PID=5320) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:22:10.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:22:10.747+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:22:10.746+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:22:10.788+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:22:10.833+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:22:10.833+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:22:10.872+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:22:10.872+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:22:10.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.168 seconds
+[2024-04-19T06:22:41.069+0000] {processor.py:161} INFO - Started process (PID=5336) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:22:41.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:22:41.074+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:22:41.073+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:22:41.121+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:22:41.172+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:22:41.172+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:22:41.212+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:22:41.211+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:22:41.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.183 seconds
+[2024-04-19T06:23:11.633+0000] {processor.py:161} INFO - Started process (PID=5353) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:23:11.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:23:11.642+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:23:11.642+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:23:11.713+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:23:11.787+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:23:11.786+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:23:11.849+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:23:11.848+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:23:11.901+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.277 seconds
+[2024-04-19T06:23:42.074+0000] {processor.py:161} INFO - Started process (PID=5369) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:23:42.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:23:42.079+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:23:42.078+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:23:42.129+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:23:42.184+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:23:42.184+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:23:42.225+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:23:42.225+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:23:42.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.193 seconds
+[2024-04-19T06:24:12.689+0000] {processor.py:161} INFO - Started process (PID=5384) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:24:12.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:24:12.694+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:24:12.693+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:24:12.740+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:24:12.784+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:24:12.784+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:24:12.821+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:24:12.821+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:24:12.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.167 seconds
+[2024-04-19T06:24:43.029+0000] {processor.py:161} INFO - Started process (PID=5399) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:24:43.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:24:43.034+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:24:43.034+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:24:43.078+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:24:43.115+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:24:43.114+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:24:43.144+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:24:43.144+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:24:43.178+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.153 seconds
+[2024-04-19T06:25:14.028+0000] {processor.py:161} INFO - Started process (PID=5416) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:25:14.030+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:25:14.034+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:25:14.033+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:25:14.083+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:25:14.126+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:25:14.126+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:25:14.164+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:25:14.164+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:25:14.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.174 seconds
+[2024-04-19T06:25:44.910+0000] {processor.py:161} INFO - Started process (PID=5431) to work on /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:25:44.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_ti_xcom.py for tasks to queue
+[2024-04-19T06:25:44.917+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:25:44.917+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:25:44.967+0000] {processor.py:840} INFO - DAG(s) 'movie_night_xcom' retrieved from /opt/airflow/dags/simple_insert_ti_xcom.py
+[2024-04-19T06:25:45.009+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:25:45.009+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-19T06:25:45.043+0000] {logging_mixin.py:188} INFO - [2024-04-19T06:25:45.043+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night_xcom to None, run_after=None
+[2024-04-19T06:25:45.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_ti_xcom.py took 0.192 seconds

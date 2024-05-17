@@ -1,0 +1,35 @@
+[2024-04-20T13:06:28.391+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing_rub.fetch_data manual__2024-04-20T12:27:38.212240+00:00 [queued]>
+[2024-04-20T13:06:28.406+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing_rub.fetch_data manual__2024-04-20T12:27:38.212240+00:00 [queued]>
+[2024-04-20T13:06:28.407+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-04-20T13:06:28.429+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data> on 2024-04-20 12:27:38.212240+00:00
+[2024-04-20T13:06:28.435+0000] {standard_task_runner.py:60} INFO - Started process 214 to run task
+[2024-04-20T13:06:28.442+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing_rub', 'fetch_data', 'manual__2024-04-20T12:27:38.212240+00:00', '--job-id', '823', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_rub.py', '--cfg-path', '/tmp/tmpdn79rin2']
+[2024-04-20T13:06:28.444+0000] {standard_task_runner.py:88} INFO - Job 823: Subtask fetch_data
+[2024-04-20T13:06:28.521+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing_rub.fetch_data manual__2024-04-20T12:27:38.212240+00:00 [running]> on host 31aa6d9ea6ff
+[2024-04-20T13:06:28.646+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing_rub' AIRFLOW_CTX_TASK_ID='fetch_data' AIRFLOW_CTX_EXECUTION_DATE='2024-04-20T12:27:38.212240+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-20T12:27:38.212240+00:00'
+[2024-04-20T13:06:28.691+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-20T13:06:28.703+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/stage/currency_rub.py", line 33, in fetch_data
+    dwh_hook.insert_rows(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 536, in insert_rows
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 161, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "dwh-db" (172.21.0.3), port 5432 failed: FATAL:  database "stage" does not exist
+
+[2024-04-20T13:06:28.726+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=currency_parsing_rub, task_id=fetch_data, execution_date=20240420T122738, start_date=20240420T130628, end_date=20240420T130628
+[2024-04-20T13:06:28.751+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 823 for task fetch_data (connection to server at "dwh-db" (172.21.0.3), port 5432 failed: FATAL:  database "stage" does not exist
+; 214)
+[2024-04-20T13:06:28.772+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-20T13:06:28.798+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

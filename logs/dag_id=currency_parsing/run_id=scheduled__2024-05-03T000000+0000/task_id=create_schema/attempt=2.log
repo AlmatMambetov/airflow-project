@@ -1,0 +1,38 @@
+[2024-05-04T05:43:52.018+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.create_schema scheduled__2024-05-03T00:00:00+00:00 [queued]>
+[2024-05-04T05:43:52.065+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.create_schema scheduled__2024-05-03T00:00:00+00:00 [queued]>
+[2024-05-04T05:43:52.070+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-05-04T05:43:52.134+0000] {taskinstance.py:2214} INFO - Executing <Task(PostgresOperator): create_schema> on 2024-05-03 00:00:00+00:00
+[2024-05-04T05:43:52.146+0000] {standard_task_runner.py:60} INFO - Started process 139 to run task
+[2024-05-04T05:43:52.153+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'create_schema', 'scheduled__2024-05-03T00:00:00+00:00', '--job-id', '2652', '--raw', '--subdir', 'DAGS_FOLDER/currency_dag/currency_parsing.py', '--cfg-path', '/tmp/tmpias71n02']
+[2024-05-04T05:43:52.164+0000] {standard_task_runner.py:88} INFO - Job 2652: Subtask create_schema
+[2024-05-04T05:43:52.309+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.create_schema scheduled__2024-05-03T00:00:00+00:00 [running]> on host 71addd39200f
+[2024-05-04T05:43:52.546+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='create_schema' AIRFLOW_CTX_EXECUTION_DATE='2024-05-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-03T00:00:00+00:00'
+[2024-05-04T05:43:52.548+0000] {sql.py:276} INFO - Executing: CREATE SCHEMA if not exists stage;
+
+CREATE SCHEMA if not exists intermediate;
+[2024-05-04T05:43:52.566+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-05-04T05:43:52.578+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-05-04T05:44:00.608+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 397, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 161, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "dwh-db" to address: Temporary failure in name resolution
+
+[2024-05-04T05:44:01.071+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=currency_parsing, task_id=create_schema, execution_date=20240503T000000, start_date=20240504T054352, end_date=20240504T054401
+[2024-05-04T05:44:01.315+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 2652 for task create_schema (could not translate host name "dwh-db" to address: Temporary failure in name resolution
+; 139)
+[2024-05-04T05:44:01.621+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-04T05:44:01.701+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1201: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-05-04T05:44:01.800+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

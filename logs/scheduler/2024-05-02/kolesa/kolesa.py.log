@@ -1,0 +1,1246 @@
+[2024-05-02T07:08:31.081+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:08:31.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:08:31.112+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:08:31.111+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:08:31.223+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:08:31.183+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:08:31.237+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:08:31.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.270 seconds
+[2024-05-02T07:09:02.331+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:09:02.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:09:02.362+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:09:02.349+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:09:02.590+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:09:02.568+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:09:02.618+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:09:03.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.698 seconds
+[2024-05-02T07:09:33.627+0000] {processor.py:161} INFO - Started process (PID=93) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:09:33.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:09:33.646+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:09:33.646+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:09:33.820+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:09:33.813+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:09:33.823+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:09:33.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.247 seconds
+[2024-05-02T07:10:04.444+0000] {processor.py:161} INFO - Started process (PID=103) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:10:04.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:10:04.447+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:10:04.446+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:10:04.486+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:10:04.479+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:10:04.489+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:10:04.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.081 seconds
+[2024-05-02T07:10:35.202+0000] {processor.py:161} INFO - Started process (PID=113) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:10:35.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:10:35.206+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:10:35.206+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:10:35.257+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:10:35.249+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:10:35.260+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:10:35.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.098 seconds
+[2024-05-02T07:11:05.399+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:11:05.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:11:05.403+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:11:05.402+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:11:05.439+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:11:05.434+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:11:05.442+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:11:05.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.084 seconds
+[2024-05-02T07:11:36.396+0000] {processor.py:161} INFO - Started process (PID=133) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:11:36.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:11:36.400+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:11:36.400+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:11:36.448+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:11:36.440+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:11:36.452+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:11:36.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.148 seconds
+[2024-05-02T07:12:06.876+0000] {processor.py:161} INFO - Started process (PID=142) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:12:06.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:12:06.880+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:12:06.879+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:12:06.925+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:12:06.908+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:12:06.930+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:12:06.973+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.102 seconds
+[2024-05-02T07:12:37.680+0000] {processor.py:161} INFO - Started process (PID=152) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:12:37.682+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:12:37.684+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:12:37.684+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:12:37.719+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:12:37.713+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:12:37.722+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:12:37.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.072 seconds
+[2024-05-02T07:13:08.216+0000] {processor.py:161} INFO - Started process (PID=162) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:13:08.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:13:08.220+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:13:08.219+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:13:08.271+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:13:08.263+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:13:08.273+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:13:08.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.090 seconds
+[2024-05-02T07:13:38.964+0000] {processor.py:161} INFO - Started process (PID=174) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:13:38.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:13:38.973+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:13:38.972+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:13:39.137+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:13:39.096+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:13:39.147+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:13:39.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.302 seconds
+[2024-05-02T07:14:10.789+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:14:10.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:14:10.800+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:14:10.799+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:14:10.932+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:14:10.924+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:14:10.937+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:14:11.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.301 seconds
+[2024-05-02T07:14:41.915+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:14:41.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:14:41.919+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:14:41.919+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:14:41.965+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:14:41.956+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:14:41.968+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:14:42.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.130 seconds
+[2024-05-02T07:15:12.516+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:15:12.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:15:12.520+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:15:12.519+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:15:12.561+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:15:12.554+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:15:12.564+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:15:12.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.082 seconds
+[2024-05-02T07:18:02.004+0000] {processor.py:161} INFO - Started process (PID=66) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:18:02.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:18:02.111+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:18:02.110+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:18:02.286+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:18:02.260+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:18:02.291+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:18:02.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.497 seconds
+[2024-05-02T07:18:33.004+0000] {processor.py:161} INFO - Started process (PID=75) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:18:33.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:18:33.009+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:18:33.009+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:18:33.056+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:18:33.045+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:18:33.058+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:18:33.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.142 seconds
+[2024-05-02T07:19:03.515+0000] {processor.py:161} INFO - Started process (PID=85) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:19:03.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:19:03.519+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:19:03.518+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:19:03.557+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:19:03.547+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:19:03.560+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:19:03.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.078 seconds
+[2024-05-02T07:19:33.762+0000] {processor.py:161} INFO - Started process (PID=97) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:19:33.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:19:33.766+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:19:33.765+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:19:33.805+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:19:33.797+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:19:33.808+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:19:33.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.078 seconds
+[2024-05-02T07:20:04.293+0000] {processor.py:161} INFO - Started process (PID=108) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:20:04.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:20:04.299+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:20:04.298+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:20:04.335+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:20:04.327+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:20:04.337+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:20:04.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.078 seconds
+[2024-05-02T07:20:35.407+0000] {processor.py:161} INFO - Started process (PID=119) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:20:35.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:20:35.418+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:20:35.417+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:20:35.484+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:20:35.473+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:20:35.487+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:20:35.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.137 seconds
+[2024-05-02T07:21:05.819+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:21:05.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:21:05.828+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:21:05.827+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:21:05.900+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:21:05.887+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:21:05.903+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:21:05.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.131 seconds
+[2024-05-02T07:21:36.187+0000] {processor.py:161} INFO - Started process (PID=142) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:21:36.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:21:36.192+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:21:36.191+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:21:36.229+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:21:36.223+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:21:36.232+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:21:36.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.077 seconds
+[2024-05-02T07:22:06.418+0000] {processor.py:161} INFO - Started process (PID=158) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:22:06.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:22:06.427+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:22:06.425+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:22:06.538+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:22:06.527+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:22:06.547+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:22:06.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.239 seconds
+[2024-05-02T07:22:37.061+0000] {processor.py:161} INFO - Started process (PID=169) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:22:37.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:22:37.065+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:22:37.065+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:22:37.104+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:22:37.097+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:22:37.106+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:22:37.150+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.096 seconds
+[2024-05-02T07:23:07.365+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:23:07.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:23:07.372+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:23:07.371+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:23:07.422+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:23:07.415+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:23:07.433+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:23:07.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.123 seconds
+[2024-05-02T07:23:37.624+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:23:37.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:23:37.630+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:23:37.630+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:23:37.754+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:23:37.702+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:23:37.775+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:23:37.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.234 seconds
+[2024-05-02T07:24:07.974+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:24:07.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:24:07.978+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:24:07.978+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:24:08.012+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:24:08.006+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:24:08.015+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:24:08.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.116 seconds
+[2024-05-02T07:24:38.507+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:24:38.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:24:38.512+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:24:38.511+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:24:38.567+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:24:38.556+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:24:38.572+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:24:38.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.146 seconds
+[2024-05-02T07:25:09.566+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:25:09.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:25:09.571+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:25:09.570+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:25:09.610+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:25:09.604+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:25:09.613+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:25:09.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.080 seconds
+[2024-05-02T07:25:40.144+0000] {processor.py:161} INFO - Started process (PID=235) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:25:40.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:25:40.151+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:25:40.150+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:25:40.208+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:25:40.199+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:25:40.212+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:25:40.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.191 seconds
+[2024-05-02T07:26:10.661+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:26:10.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:26:10.667+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:26:10.667+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:26:10.704+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:26:10.698+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:26:10.707+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:26:10.743+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.087 seconds
+[2024-05-02T07:26:41.063+0000] {processor.py:161} INFO - Started process (PID=257) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:26:41.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:26:41.098+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:26:41.097+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:26:41.181+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:26:41.173+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:26:41.184+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:26:41.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.209 seconds
+[2024-05-02T07:27:11.660+0000] {processor.py:161} INFO - Started process (PID=268) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:27:11.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:27:11.664+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:27:11.664+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:27:11.705+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:27:11.697+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:27:11.707+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:27:11.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.080 seconds
+[2024-05-02T07:27:42.125+0000] {processor.py:161} INFO - Started process (PID=279) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:27:42.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:27:42.130+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:27:42.129+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:27:42.169+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:27:42.163+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:27:42.172+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:27:42.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.096 seconds
+[2024-05-02T07:28:12.611+0000] {processor.py:161} INFO - Started process (PID=290) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:28:12.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:28:12.615+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:28:12.615+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:28:12.655+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:28:12.647+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:28:12.657+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:28:12.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.075 seconds
+[2024-05-02T07:28:42.831+0000] {processor.py:161} INFO - Started process (PID=301) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:28:42.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:28:42.837+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:28:42.837+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:28:42.885+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:28:42.879+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:28:42.889+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:28:42.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.107 seconds
+[2024-05-02T07:29:13.460+0000] {processor.py:161} INFO - Started process (PID=312) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:29:13.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:29:13.464+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:29:13.464+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:29:13.505+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:29:13.496+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:29:13.509+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:29:13.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.084 seconds
+[2024-05-02T07:29:43.928+0000] {processor.py:161} INFO - Started process (PID=323) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:29:43.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:29:43.933+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:29:43.932+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:29:43.967+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:29:43.960+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:29:43.970+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:29:44.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.081 seconds
+[2024-05-02T07:30:14.469+0000] {processor.py:161} INFO - Started process (PID=333) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:30:14.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:30:14.475+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:30:14.474+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:30:14.513+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:30:14.506+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:30:14.517+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:30:14.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.085 seconds
+[2024-05-02T07:30:44.763+0000] {processor.py:161} INFO - Started process (PID=345) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:30:44.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:30:44.767+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:30:44.767+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:30:44.809+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:30:44.802+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:30:44.812+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:30:44.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.083 seconds
+[2024-05-02T07:31:15.557+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:31:15.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:31:15.573+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:31:15.570+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:31:15.736+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:31:15.719+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:31:15.740+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:31:15.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.289 seconds
+[2024-05-02T07:31:45.937+0000] {processor.py:161} INFO - Started process (PID=367) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:31:45.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:31:45.941+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:31:45.941+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:31:45.979+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:31:45.970+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:31:45.982+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:31:46.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.079 seconds
+[2024-05-02T07:32:16.676+0000] {processor.py:161} INFO - Started process (PID=378) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:32:16.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:32:16.685+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:32:16.685+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:32:16.767+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:32:16.751+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:32:16.790+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:32:16.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.191 seconds
+[2024-05-02T07:32:47.015+0000] {processor.py:161} INFO - Started process (PID=390) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:32:47.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:32:47.019+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:32:47.019+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:32:47.056+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:32:47.050+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:32:47.058+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:32:47.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.078 seconds
+[2024-05-02T07:33:17.695+0000] {processor.py:161} INFO - Started process (PID=401) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:33:17.697+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:33:17.700+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:33:17.700+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:33:17.752+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:33:17.744+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:33:17.755+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:33:17.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.112 seconds
+[2024-05-02T07:33:48.106+0000] {processor.py:161} INFO - Started process (PID=413) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:33:48.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:33:48.112+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:33:48.111+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:33:48.150+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:33:48.144+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:33:48.152+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:33:48.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.081 seconds
+[2024-05-02T07:34:18.464+0000] {processor.py:161} INFO - Started process (PID=431) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:34:18.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:34:18.470+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:34:18.470+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:34:18.531+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:34:18.520+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:34:18.534+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:34:18.608+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.152 seconds
+[2024-05-02T07:34:49.075+0000] {processor.py:161} INFO - Started process (PID=443) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:34:49.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:34:49.079+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:34:49.079+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:34:49.113+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:34:49.108+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:34:49.115+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:34:49.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.075 seconds
+[2024-05-02T07:35:19.489+0000] {processor.py:161} INFO - Started process (PID=454) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:35:19.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:35:19.494+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:35:19.493+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:35:19.533+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:35:19.526+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:35:19.535+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:35:19.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.085 seconds
+[2024-05-02T07:35:49.656+0000] {processor.py:161} INFO - Started process (PID=465) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:35:49.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:35:49.663+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:35:49.663+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:35:49.700+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:35:49.692+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:35:49.703+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:35:49.730+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.078 seconds
+[2024-05-02T07:36:19.818+0000] {processor.py:161} INFO - Started process (PID=476) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:36:19.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:36:19.822+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:36:19.822+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:36:19.856+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:36:19.850+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:36:19.859+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:36:19.886+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.073 seconds
+[2024-05-02T07:36:50.572+0000] {processor.py:161} INFO - Started process (PID=487) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:36:50.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:36:50.578+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:36:50.577+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:36:50.618+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:36:50.610+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:36:50.621+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:36:50.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.085 seconds
+[2024-05-02T07:37:20.757+0000] {processor.py:161} INFO - Started process (PID=499) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:37:20.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:37:20.762+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:37:20.761+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:37:20.798+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:37:20.791+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:37:20.800+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:37:20.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.076 seconds
+[2024-05-02T07:37:50.964+0000] {processor.py:161} INFO - Started process (PID=511) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:37:50.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:37:50.969+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:37:50.968+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:37:51.002+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:37:50.996+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:37:51.005+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:37:51.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.076 seconds
+[2024-05-02T07:38:21.484+0000] {processor.py:161} INFO - Started process (PID=522) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:38:21.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:38:21.489+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:38:21.489+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:38:21.528+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:38:21.521+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:38:21.531+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:38:21.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.096 seconds
+[2024-05-02T07:38:51.927+0000] {processor.py:161} INFO - Started process (PID=533) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:38:51.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:38:51.938+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:38:51.937+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:38:51.987+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:38:51.980+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:38:51.989+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:38:52.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.118 seconds
+[2024-05-02T07:39:22.926+0000] {processor.py:161} INFO - Started process (PID=545) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:39:22.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:39:22.931+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:39:22.930+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:39:23.013+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:39:22.994+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:39:23.018+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:39:23.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.136 seconds
+[2024-05-02T07:39:53.257+0000] {processor.py:161} INFO - Started process (PID=556) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:39:53.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:39:53.261+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:39:53.261+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:39:53.297+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:39:53.290+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:39:53.300+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:39:53.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.084 seconds
+[2024-05-02T07:40:23.444+0000] {processor.py:161} INFO - Started process (PID=567) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:40:23.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:40:23.448+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:40:23.448+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:40:23.485+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:40:23.478+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:40:23.488+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:40:23.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.078 seconds
+[2024-05-02T07:40:54.087+0000] {processor.py:161} INFO - Started process (PID=578) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:40:54.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:40:54.091+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:40:54.091+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:40:54.136+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:40:54.131+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:40:54.138+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:40:54.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.080 seconds
+[2024-05-02T07:41:24.466+0000] {processor.py:161} INFO - Started process (PID=589) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:41:24.468+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:41:24.471+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:41:24.470+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:41:24.503+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:41:24.497+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:41:24.505+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:41:24.534+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.074 seconds
+[2024-05-02T07:41:54.813+0000] {processor.py:161} INFO - Started process (PID=600) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:41:54.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:41:54.818+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:41:54.817+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:41:54.864+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:41:54.856+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:41:54.867+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:41:54.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.089 seconds
+[2024-05-02T07:42:25.831+0000] {processor.py:161} INFO - Started process (PID=610) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:42:25.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:42:25.837+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:42:25.836+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:42:25.875+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:42:25.869+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:42:25.878+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:42:25.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.159 seconds
+[2024-05-02T07:42:56.320+0000] {processor.py:161} INFO - Started process (PID=621) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:42:56.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:42:56.326+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:42:56.325+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:42:56.384+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:42:56.371+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:42:56.390+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:42:56.447+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.136 seconds
+[2024-05-02T07:43:26.980+0000] {processor.py:161} INFO - Started process (PID=632) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:43:26.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:43:26.985+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:43:26.984+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:43:27.040+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:43:27.033+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:43:27.043+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:43:27.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.097 seconds
+[2024-05-02T07:43:57.166+0000] {processor.py:161} INFO - Started process (PID=643) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:43:57.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:43:57.171+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:43:57.171+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:43:57.213+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:43:57.204+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:43:57.216+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:43:57.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.087 seconds
+[2024-05-02T07:44:27.576+0000] {processor.py:161} INFO - Started process (PID=654) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:44:27.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:44:27.588+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:44:27.587+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:44:27.666+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:44:27.639+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:44:27.669+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:44:27.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.239 seconds
+[2024-05-02T07:44:57.957+0000] {processor.py:161} INFO - Started process (PID=665) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:44:57.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:44:57.961+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:44:57.961+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:44:57.998+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:44:57.991+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:44:58.014+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:44:58.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.090 seconds
+[2024-05-02T07:45:28.364+0000] {processor.py:161} INFO - Started process (PID=676) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:45:28.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:45:28.369+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:45:28.369+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:45:28.409+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:45:28.402+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:45:28.412+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:45:28.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.081 seconds
+[2024-05-02T07:45:58.836+0000] {processor.py:161} INFO - Started process (PID=687) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:45:58.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:45:58.841+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:45:58.840+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:45:58.894+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:45:58.887+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:45:58.897+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:45:58.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.093 seconds
+[2024-05-02T07:46:29.330+0000] {processor.py:161} INFO - Started process (PID=698) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:46:29.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:46:29.335+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:46:29.334+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:46:29.374+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:46:29.367+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:46:29.379+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:46:29.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.081 seconds
+[2024-05-02T07:46:59.573+0000] {processor.py:161} INFO - Started process (PID=709) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:46:59.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:46:59.579+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:46:59.578+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:46:59.615+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:46:59.609+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:46:59.618+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:46:59.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.079 seconds
+[2024-05-02T07:47:30.058+0000] {processor.py:161} INFO - Started process (PID=720) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:47:30.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:47:30.063+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:47:30.062+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:47:30.102+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:47:30.092+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:47:30.105+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:47:30.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.081 seconds
+[2024-05-02T07:48:00.462+0000] {processor.py:161} INFO - Started process (PID=730) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:48:00.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:48:00.467+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:48:00.467+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:48:00.500+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:48:00.494+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:48:00.503+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:48:00.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.075 seconds
+[2024-05-02T07:48:30.739+0000] {processor.py:161} INFO - Started process (PID=741) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:48:30.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:48:30.751+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:48:30.750+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:48:30.800+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:48:30.794+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:48:30.803+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:48:30.842+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.111 seconds
+[2024-05-02T07:49:00.959+0000] {processor.py:161} INFO - Started process (PID=751) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:49:00.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:49:00.967+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:49:00.966+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:49:01.006+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:49:00.999+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:49:01.008+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:49:01.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.085 seconds
+[2024-05-02T07:49:31.263+0000] {processor.py:161} INFO - Started process (PID=763) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:49:31.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:49:31.267+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:49:31.267+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:49:31.305+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:49:31.298+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:49:31.308+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:49:31.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.081 seconds
+[2024-05-02T07:50:01.462+0000] {processor.py:161} INFO - Started process (PID=773) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:50:01.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:50:01.467+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:50:01.466+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:50:01.506+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:50:01.499+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:50:01.509+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:50:01.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.081 seconds
+[2024-05-02T07:50:32.077+0000] {processor.py:161} INFO - Started process (PID=784) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:50:32.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:50:32.081+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:50:32.081+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:50:32.117+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:50:32.109+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:50:32.120+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:50:32.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.078 seconds
+[2024-05-02T07:51:02.286+0000] {processor.py:161} INFO - Started process (PID=794) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:51:02.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:51:02.293+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:51:02.292+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:51:02.343+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:51:02.333+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:51:02.347+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:51:02.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.114 seconds
+[2024-05-02T07:51:32.655+0000] {processor.py:161} INFO - Started process (PID=805) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:51:32.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:51:32.925+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:51:32.920+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:51:33.072+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:51:33.061+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:51:33.078+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:51:33.177+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.532 seconds
+[2024-05-02T07:52:03.757+0000] {processor.py:161} INFO - Started process (PID=816) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:52:03.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:52:03.761+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:52:03.760+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:52:03.797+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:52:03.791+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:52:03.799+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:52:03.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.079 seconds
+[2024-05-02T07:52:34.061+0000] {processor.py:161} INFO - Started process (PID=827) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:52:34.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:52:34.066+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:52:34.065+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:52:34.102+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:52:34.094+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:52:34.104+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:52:34.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.135 seconds
+[2024-05-02T07:53:04.769+0000] {processor.py:161} INFO - Started process (PID=838) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:53:04.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:53:04.774+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:53:04.774+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:53:04.806+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:53:04.801+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:53:04.808+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:53:04.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.087 seconds
+[2024-05-02T07:53:35.717+0000] {processor.py:161} INFO - Started process (PID=849) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:53:35.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:53:35.722+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:53:35.721+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:53:35.768+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:53:35.760+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:53:35.771+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:53:35.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.089 seconds
+[2024-05-02T07:54:06.242+0000] {processor.py:161} INFO - Started process (PID=860) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:54:06.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:54:06.247+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:54:06.246+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:54:06.284+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:54:06.276+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:54:06.286+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:54:06.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.132 seconds
+[2024-05-02T07:54:36.603+0000] {processor.py:161} INFO - Started process (PID=871) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:54:36.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:54:36.608+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:54:36.608+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:54:36.649+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:54:36.642+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:54:36.652+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:54:36.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.082 seconds
+[2024-05-02T07:55:06.946+0000] {processor.py:161} INFO - Started process (PID=881) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:55:06.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:55:06.951+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:55:06.950+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:55:06.995+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:55:06.987+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:55:07.000+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:55:07.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.099 seconds
+[2024-05-02T07:55:37.137+0000] {processor.py:161} INFO - Started process (PID=892) to work on /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:55:37.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kolesa/kolesa.py for tasks to queue
+[2024-05-02T07:55:37.146+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:55:37.145+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:55:37.193+0000] {logging_mixin.py:188} INFO - [2024-05-02T07:55:37.185+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/kolesa/kolesa.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kolesa/kolesa.py", line 6, in <module>
+    from kolesa_utils import *
+ModuleNotFoundError: No module named 'kolesa_utils'
+[2024-05-02T07:55:37.197+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/kolesa/kolesa.py
+[2024-05-02T07:55:37.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kolesa/kolesa.py took 0.107 seconds

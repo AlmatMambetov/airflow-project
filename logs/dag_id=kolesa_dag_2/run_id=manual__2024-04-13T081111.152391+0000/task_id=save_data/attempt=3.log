@@ -1,0 +1,37 @@
+[2024-04-13T08:19:22.512+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kolesa_dag_2.save_data manual__2024-04-13T08:11:11.152391+00:00 [queued]>
+[2024-04-13T08:19:22.527+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kolesa_dag_2.save_data manual__2024-04-13T08:11:11.152391+00:00 [queued]>
+[2024-04-13T08:19:22.527+0000] {taskinstance.py:2193} INFO - Starting attempt 3 of 3
+[2024-04-13T08:19:22.552+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): save_data> on 2024-04-13 08:11:11.152391+00:00
+[2024-04-13T08:19:22.561+0000] {standard_task_runner.py:60} INFO - Started process 282 to run task
+[2024-04-13T08:19:22.567+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'kolesa_dag_2', 'save_data', 'manual__2024-04-13T08:11:11.152391+00:00', '--job-id', '87', '--raw', '--subdir', 'DAGS_FOLDER/kolesa_parsing_2.py', '--cfg-path', '/tmp/tmpdh9x0hd0']
+[2024-04-13T08:19:22.571+0000] {standard_task_runner.py:88} INFO - Job 87: Subtask save_data
+[2024-04-13T08:19:22.650+0000] {task_command.py:423} INFO - Running <TaskInstance: kolesa_dag_2.save_data manual__2024-04-13T08:11:11.152391+00:00 [running]> on host e30ef82509b4
+[2024-04-13T08:19:23.268+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kolesa_dag_2' AIRFLOW_CTX_TASK_ID='save_data' AIRFLOW_CTX_EXECUTION_DATE='2024-04-13T08:11:11.152391+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-13T08:11:11.152391+00:00'
+[2024-04-13T08:19:23.294+0000] {logging_mixin.py:188} INFO - Alphard
+[2024-04-13T08:19:23.296+0000] {logging_mixin.py:188} INFO - ['mark', 'model', 'year', 'price', 'description', 'city', 'generation', 'body', 'engine_volume', 'mileage', 'unit', 'transmission', 'drive_unit', 'steering_wheel', 'color', 'is_customized']
+[2024-04-13T08:19:23.311+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-13T08:19:23.325+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/kolesa_parsing_2.py", line 31, in save_data
+    dwh_hook.insert_rows(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 565, in insert_rows
+    cur.execute(sql, values)
+psycopg2.errors.SyntaxError: INSERT has more target columns than expressions
+LINE 1: ...ing (mark, model, year, price, description, city, generation...
+                                                             ^
+
+[2024-04-13T08:19:23.348+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=kolesa_dag_2, task_id=save_data, execution_date=20240413T081111, start_date=20240413T081922, end_date=20240413T081923
+[2024-04-13T08:19:23.384+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 87 for task save_data (INSERT has more target columns than expressions
+LINE 1: ...ing (mark, model, year, price, description, city, generation...
+                                                             ^
+; 282)
+[2024-04-13T08:19:23.408+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-13T08:19:23.435+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

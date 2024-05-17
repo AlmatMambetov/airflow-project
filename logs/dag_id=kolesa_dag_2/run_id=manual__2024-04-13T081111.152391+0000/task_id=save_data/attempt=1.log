@@ -1,0 +1,37 @@
+[2024-04-13T08:11:22.366+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kolesa_dag_2.save_data manual__2024-04-13T08:11:11.152391+00:00 [queued]>
+[2024-04-13T08:11:22.384+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kolesa_dag_2.save_data manual__2024-04-13T08:11:11.152391+00:00 [queued]>
+[2024-04-13T08:11:22.385+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-04-13T08:11:22.417+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): save_data> on 2024-04-13 08:11:11.152391+00:00
+[2024-04-13T08:11:22.425+0000] {standard_task_runner.py:60} INFO - Started process 168 to run task
+[2024-04-13T08:11:22.432+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'kolesa_dag_2', 'save_data', 'manual__2024-04-13T08:11:11.152391+00:00', '--job-id', '83', '--raw', '--subdir', 'DAGS_FOLDER/kolesa_parsing_2.py', '--cfg-path', '/tmp/tmp9p3xcqsg']
+[2024-04-13T08:11:22.438+0000] {standard_task_runner.py:88} INFO - Job 83: Subtask save_data
+[2024-04-13T08:11:22.529+0000] {task_command.py:423} INFO - Running <TaskInstance: kolesa_dag_2.save_data manual__2024-04-13T08:11:11.152391+00:00 [running]> on host e30ef82509b4
+[2024-04-13T08:11:22.914+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kolesa_dag_2' AIRFLOW_CTX_TASK_ID='save_data' AIRFLOW_CTX_EXECUTION_DATE='2024-04-13T08:11:11.152391+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-13T08:11:11.152391+00:00'
+[2024-04-13T08:11:22.933+0000] {logging_mixin.py:188} INFO - Alphard
+[2024-04-13T08:11:22.934+0000] {logging_mixin.py:188} INFO - ['mark', 'model', 'year', 'price', 'description', 'city', 'generation', 'body', 'engine_volume', 'mileage', 'unit', 'transmission', 'drive_unit', 'steering_wheel', 'color', 'is_customized']
+[2024-04-13T08:11:22.950+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-13T08:11:22.958+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/kolesa_parsing_2.py", line 31, in save_data
+    dwh_hook.insert_rows(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 565, in insert_rows
+    cur.execute(sql, values)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for integer: "y"
+LINE 1: INSERT INTO kolesa_parsing  VALUES ('T','o','y','o','t','a')
+                                                    ^
+
+[2024-04-13T08:11:22.986+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=kolesa_dag_2, task_id=save_data, execution_date=20240413T081111, start_date=20240413T081122, end_date=20240413T081122
+[2024-04-13T08:11:23.012+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 83 for task save_data (invalid input syntax for integer: "y"
+LINE 1: INSERT INTO kolesa_parsing  VALUES ('T','o','y','o','t','a')
+                                                    ^
+; 168)
+[2024-04-13T08:11:23.052+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-13T08:11:23.085+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

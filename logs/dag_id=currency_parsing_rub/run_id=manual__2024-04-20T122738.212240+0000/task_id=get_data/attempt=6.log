@@ -1,0 +1,31 @@
+[2024-04-20T12:48:18.896+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing_rub.get_data manual__2024-04-20T12:27:38.212240+00:00 [queued]>
+[2024-04-20T12:48:18.915+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing_rub.get_data manual__2024-04-20T12:27:38.212240+00:00 [queued]>
+[2024-04-20T12:48:18.916+0000] {taskinstance.py:2193} INFO - Starting attempt 6 of 7
+[2024-04-20T12:48:18.945+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): get_data> on 2024-04-20 12:27:38.212240+00:00
+[2024-04-20T12:48:18.952+0000] {standard_task_runner.py:60} INFO - Started process 665 to run task
+[2024-04-20T12:48:18.961+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing_rub', 'get_data', 'manual__2024-04-20T12:27:38.212240+00:00', '--job-id', '814', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_rub.py', '--cfg-path', '/tmp/tmpa8rt_r0d']
+[2024-04-20T12:48:18.966+0000] {standard_task_runner.py:88} INFO - Job 814: Subtask get_data
+[2024-04-20T12:48:19.060+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing_rub.get_data manual__2024-04-20T12:27:38.212240+00:00 [running]> on host b6a424c1134c
+[2024-04-20T12:48:19.136+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:207: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2024-04-20T12:48:19.197+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing_rub' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2024-04-20T12:27:38.212240+00:00' AIRFLOW_CTX_TRY_NUMBER='6' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-20T12:27:38.212240+00:00'
+[2024-04-20T12:48:34.729+0000] {currency_rub.py:17} INFO - Here is our url: https://www.cbr-xml-daily.ru/archive/2024/4/20/daily_json.js
+[2024-04-20T12:48:34.730+0000] {currency_rub.py:18} INFO - Here is currency_data: {'error': 'Not found', 'code': 404, 'explanation': 'Курс ЦБ РФ на данную дату не установлен или указана ошибочная дата. Проверить: https://www.cbr.ru/currency_base/daily/'}
+[2024-04-20T12:48:34.733+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/stage/currency_rub.py", line 20, in get_data
+    currencies = [currencies[1] for currencies in currency_data["Valute"].items()]
+KeyError: 'Valute'
+[2024-04-20T12:48:34.760+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=currency_parsing_rub, task_id=get_data, execution_date=20240420T122738, start_date=20240420T124818, end_date=20240420T124834
+[2024-04-20T12:48:34.822+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 814 for task get_data ('Valute'; 665)
+[2024-04-20T12:48:34.875+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-20T12:48:34.950+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

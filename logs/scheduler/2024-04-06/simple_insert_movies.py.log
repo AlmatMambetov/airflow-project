@@ -1,0 +1,91 @@
+[2024-04-06T12:58:27.337+0000] {processor.py:161} INFO - Started process (PID=38) to work on /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T12:58:27.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_movies.py for tasks to queue
+[2024-04-06T12:58:27.346+0000] {logging_mixin.py:188} INFO - [2024-04-06T12:58:27.345+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T12:58:27.420+0000] {processor.py:840} INFO - DAG(s) 'movie_night' retrieved from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T12:58:27.745+0000] {logging_mixin.py:188} INFO - [2024-04-06T12:58:27.745+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-06T12:58:27.801+0000] {logging_mixin.py:188} INFO - [2024-04-06T12:58:27.801+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night to None, run_after=None
+[2024-04-06T12:58:27.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_movies.py took 0.519 seconds
+[2024-04-06T12:58:58.749+0000] {processor.py:161} INFO - Started process (PID=48) to work on /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T12:58:58.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_movies.py for tasks to queue
+[2024-04-06T12:58:58.756+0000] {logging_mixin.py:188} INFO - [2024-04-06T12:58:58.755+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T12:58:58.832+0000] {processor.py:840} INFO - DAG(s) 'movie_night' retrieved from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T12:58:58.903+0000] {logging_mixin.py:188} INFO - [2024-04-06T12:58:58.903+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-06T12:58:58.963+0000] {logging_mixin.py:188} INFO - [2024-04-06T12:58:58.963+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night to None, run_after=None
+[2024-04-06T12:58:59.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_movies.py took 0.258 seconds
+[2024-04-06T12:59:29.561+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T12:59:29.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_movies.py for tasks to queue
+[2024-04-06T12:59:29.568+0000] {logging_mixin.py:188} INFO - [2024-04-06T12:59:29.567+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T12:59:29.677+0000] {processor.py:840} INFO - DAG(s) 'movie_night' retrieved from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T12:59:29.936+0000] {logging_mixin.py:188} INFO - [2024-04-06T12:59:29.936+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-06T12:59:30.204+0000] {logging_mixin.py:188} INFO - [2024-04-06T12:59:30.203+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night to None, run_after=None
+[2024-04-06T12:59:30.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_movies.py took 0.937 seconds
+[2024-04-06T13:00:01.543+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:00:01.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_movies.py for tasks to queue
+[2024-04-06T13:00:01.592+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:00:01.591+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:00:01.804+0000] {processor.py:840} INFO - DAG(s) 'movie_night' retrieved from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:00:02.016+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:00:02.016+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-06T13:00:02.145+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:00:02.144+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night to None, run_after=None
+[2024-04-06T13:00:02.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_movies.py took 0.718 seconds
+[2024-04-06T13:00:32.317+0000] {processor.py:161} INFO - Started process (PID=78) to work on /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:00:32.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_movies.py for tasks to queue
+[2024-04-06T13:00:32.322+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:00:32.321+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:00:32.380+0000] {processor.py:840} INFO - DAG(s) 'movie_night' retrieved from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:00:32.426+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:00:32.425+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-06T13:00:32.498+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:00:32.497+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night to None, run_after=None
+[2024-04-06T13:00:32.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_movies.py took 0.249 seconds
+[2024-04-06T13:02:28.564+0000] {processor.py:161} INFO - Started process (PID=38) to work on /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:02:28.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_movies.py for tasks to queue
+[2024-04-06T13:02:28.569+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:02:28.568+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:02:28.635+0000] {processor.py:840} INFO - DAG(s) 'movie_night' retrieved from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:02:29.265+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:02:29.265+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-06T13:02:29.318+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:02:29.318+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night to None, run_after=None
+[2024-04-06T13:02:29.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_movies.py took 0.837 seconds
+[2024-04-06T13:03:00.453+0000] {processor.py:161} INFO - Started process (PID=48) to work on /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:03:00.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_movies.py for tasks to queue
+[2024-04-06T13:03:00.468+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:03:00.467+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:03:00.905+0000] {processor.py:840} INFO - DAG(s) 'movie_night' retrieved from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:03:01.057+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:03:01.057+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-06T13:03:01.202+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:03:01.201+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night to None, run_after=None
+[2024-04-06T13:03:01.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_movies.py took 0.937 seconds
+[2024-04-06T13:03:32.022+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:03:32.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_movies.py for tasks to queue
+[2024-04-06T13:03:32.032+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:03:32.031+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:03:32.191+0000] {processor.py:840} INFO - DAG(s) 'movie_night' retrieved from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:03:32.408+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:03:32.408+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-06T13:03:32.668+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:03:32.667+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night to None, run_after=None
+[2024-04-06T13:03:32.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_movies.py took 0.927 seconds
+[2024-04-06T13:04:03.536+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:04:03.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_movies.py for tasks to queue
+[2024-04-06T13:04:03.547+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:04:03.546+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:04:03.618+0000] {processor.py:840} INFO - DAG(s) 'movie_night' retrieved from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:04:03.677+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:04:03.677+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-06T13:04:03.726+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:04:03.725+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night to None, run_after=None
+[2024-04-06T13:04:03.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_movies.py took 0.236 seconds
+[2024-04-06T13:04:34.556+0000] {processor.py:161} INFO - Started process (PID=79) to work on /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:04:34.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_movies.py for tasks to queue
+[2024-04-06T13:04:34.562+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:04:34.561+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:04:34.724+0000] {processor.py:840} INFO - DAG(s) 'movie_night' retrieved from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:04:34.787+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:04:34.786+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-06T13:04:34.862+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:04:34.862+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night to None, run_after=None
+[2024-04-06T13:04:34.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_movies.py took 0.397 seconds
+[2024-04-06T13:06:31.340+0000] {processor.py:161} INFO - Started process (PID=40) to work on /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:06:31.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_movies.py for tasks to queue
+[2024-04-06T13:06:31.347+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:06:31.346+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:06:31.409+0000] {processor.py:840} INFO - DAG(s) 'movie_night' retrieved from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:06:31.755+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:06:31.754+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-06T13:06:31.809+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:06:31.809+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night to None, run_after=None
+[2024-04-06T13:06:31.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_movies.py took 0.522 seconds
+[2024-04-06T13:07:01.913+0000] {processor.py:161} INFO - Started process (PID=49) to work on /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:07:01.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_movies.py for tasks to queue
+[2024-04-06T13:07:01.920+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:07:01.919+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:07:02.005+0000] {processor.py:840} INFO - DAG(s) 'movie_night' retrieved from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:07:02.192+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:07:02.192+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-06T13:07:02.332+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:07:02.332+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night to None, run_after=None
+[2024-04-06T13:07:02.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_movies.py took 0.512 seconds
+[2024-04-06T13:07:35.831+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:07:35.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_insert_movies.py for tasks to queue
+[2024-04-06T13:07:35.859+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:07:35.858+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:07:37.286+0000] {processor.py:840} INFO - DAG(s) 'movie_night' retrieved from /opt/airflow/dags/simple_insert_movies.py
+[2024-04-06T13:07:38.003+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:07:38.002+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-06T13:07:38.166+0000] {logging_mixin.py:188} INFO - [2024-04-06T13:07:38.165+0000] {dag.py:3834} INFO - Setting next_dagrun for movie_night to None, run_after=None
+[2024-04-06T13:07:39.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_insert_movies.py took 3.648 seconds

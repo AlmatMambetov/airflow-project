@@ -1,0 +1,45 @@
+[2024-05-02T07:22:06.860+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.get_data_rub scheduled__2024-05-01T00:00:00+00:00 [queued]>
+[2024-05-02T07:22:06.925+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.get_data_rub scheduled__2024-05-01T00:00:00+00:00 [queued]>
+[2024-05-02T07:22:06.932+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-02T07:22:07.013+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): get_data_rub> on 2024-05-01 00:00:00+00:00
+[2024-05-02T07:22:07.022+0000] {standard_task_runner.py:60} INFO - Started process 141 to run task
+[2024-05-02T07:22:07.033+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'get_data_rub', 'scheduled__2024-05-01T00:00:00+00:00', '--job-id', '2624', '--raw', '--subdir', 'DAGS_FOLDER/currency_dag/currency_parsing.py', '--cfg-path', '/tmp/tmpf96bzka3']
+[2024-05-02T07:22:07.039+0000] {standard_task_runner.py:88} INFO - Job 2624: Subtask get_data_rub
+[2024-05-02T07:22:07.201+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.get_data_rub scheduled__2024-05-01T00:00:00+00:00 [running]> on host 71addd39200f
+[2024-05-02T07:22:07.422+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:207: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2024-05-02T07:22:07.614+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='get_data_rub' AIRFLOW_CTX_EXECUTION_DATE='2024-05-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-01T00:00:00+00:00'
+[2024-05-02T07:22:18.230+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/currency_dag/currency_parsing.py", line 39, in get_data_rub
+    currencies_date = datetime.strptime(currency_data['Date'][:10], '%Y-%m-%d')
+KeyError: 'Date'
+[2024-05-02T07:22:18.254+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=currency_parsing, task_id=get_data_rub, execution_date=20240501T000000, start_date=20240502T072206, end_date=20240502T072218
+[2024-05-02T07:22:18.281+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 2624 for task get_data_rub ('Date'; 141)
+[2024-05-02T07:22:18.313+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-02T07:22:18.350+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-05T10:54:11.574+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.get_data_rub scheduled__2024-05-01T00:00:00+00:00 [queued]>
+[2024-05-05T10:54:11.807+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.get_data_rub scheduled__2024-05-01T00:00:00+00:00 [queued]>
+[2024-05-05T10:54:11.855+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-05T10:54:13.166+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): get_data_rub> on 2024-05-01 00:00:00+00:00
+[2024-05-05T10:54:13.474+0000] {standard_task_runner.py:60} INFO - Started process 708 to run task
+[2024-05-05T10:54:13.733+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'get_data_rub', 'scheduled__2024-05-01T00:00:00+00:00', '--job-id', '2677', '--raw', '--subdir', 'DAGS_FOLDER/currency_dag/currency_parsing.py', '--cfg-path', '/tmp/tmp9mv1puaa']
+[2024-05-05T10:54:14.024+0000] {standard_task_runner.py:88} INFO - Job 2677: Subtask get_data_rub
+[2024-05-05T10:54:16.505+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.get_data_rub scheduled__2024-05-01T00:00:00+00:00 [running]> on host 71addd39200f
+[2024-05-05T10:54:17.516+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:207: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2024-05-05T10:54:18.455+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='get_data_rub' AIRFLOW_CTX_EXECUTION_DATE='2024-05-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-01T00:00:00+00:00'
+[2024-05-05T10:54:36.134+0000] {python.py:202} INFO - Done. Returned value was: ([['AUD', 0.0165003041, '2024-4-30'], ['BGN', 0.0195021759, '2024-4-30'], ['BRL', 0.0554396762, '2024-4-30'], ['CAD', 0.0147219674, '2024-4-30'], ['CHF', 0.0098282533, '2024-4-30'], ['CNY', 0.0774792307, '2024-4-30'], ['CZK', 0.2516691597, '2024-4-30'], ['DKK', 0.0747230678, '2024-4-30'], ['EUR', 0.0100198855, '2024-4-30'], ['GBP', 0.0085574784, '2024-4-30'], ['HKD', 0.0835977618, '2024-4-30'], ['HRK', 0.0724431581, '2024-4-30'], ['HUF', 3.9137492124, '2024-4-30'], ['IDR', 173.7071717657, '2024-4-30'], ['ILS', 0.0399438077, '2024-4-30'], ['INR', 0.8923641607, '2024-4-30'], ['ISK', 1.4992254801, '2024-4-30'], ['JPY', 1.6853846363, '2024-4-30'], ['KRW', 14.7655680385, '2024-4-30'], ['MXN', 0.1832410576, '2024-4-30'], ['MYR', 0.0510714772, '2024-4-30'], ['NOK', 0.1187818783, '2024-4-30'], ['NZD', 0.0181784958, '2024-4-30'], ['PHP', 0.6175008448, '2024-4-30'], ['PLN', 0.0433922126, '2024-4-30'], ['RON', 0.0498464455, '2024-4-30'], ['RUB', 1, '2024-4-30'], ['SEK', 0.1177019863, '2024-4-30'], ['SGD', 0.014586767, '2024-4-30'], ['THB', 0.397482421, '2024-4-30'], ['TRY', 0.345968138, '2024-4-30'], ['USD', 0.0106877619, '2024-4-30'], ['ZAR', 0.2007718798, '2024-4-30']], ['title', 'rate', 'date'])
+[2024-05-05T10:54:37.163+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=get_data_rub, execution_date=20240501T000000, start_date=20240505T105411, end_date=20240505T105436
+[2024-05-05T10:54:37.733+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-05T10:54:37.979+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

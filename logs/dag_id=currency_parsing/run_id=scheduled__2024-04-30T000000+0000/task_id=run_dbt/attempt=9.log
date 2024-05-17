@@ -1,0 +1,27 @@
+[2024-05-05T11:45:00.422+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.run_dbt scheduled__2024-04-30T00:00:00+00:00 [queued]>
+[2024-05-05T11:45:00.442+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.run_dbt scheduled__2024-04-30T00:00:00+00:00 [queued]>
+[2024-05-05T11:45:00.443+0000] {taskinstance.py:2193} INFO - Starting attempt 9 of 10
+[2024-05-05T11:45:00.470+0000] {taskinstance.py:2214} INFO - Executing <Task(BashOperator): run_dbt> on 2024-04-30 00:00:00+00:00
+[2024-05-05T11:45:00.477+0000] {standard_task_runner.py:60} INFO - Started process 1512 to run task
+[2024-05-05T11:45:00.483+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'run_dbt', 'scheduled__2024-04-30T00:00:00+00:00', '--job-id', '2743', '--raw', '--subdir', 'DAGS_FOLDER/currency_dag/currency_parsing.py', '--cfg-path', '/tmp/tmp51c5t6cz']
+[2024-05-05T11:45:00.487+0000] {standard_task_runner.py:88} INFO - Job 2743: Subtask run_dbt
+[2024-05-05T11:45:00.579+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.run_dbt scheduled__2024-04-30T00:00:00+00:00 [running]> on host 71addd39200f
+[2024-05-05T11:45:00.740+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='run_dbt' AIRFLOW_CTX_EXECUTION_DATE='2024-04-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='9' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-30T00:00:00+00:00'
+[2024-05-05T11:45:00.743+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-05-05T11:45:00.744+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd dbt_currency && dbt run']
+[2024-05-05T11:45:00.760+0000] {subprocess.py:86} INFO - Output:
+[2024-05-05T11:45:00.763+0000] {subprocess.py:93} INFO - /usr/bin/bash: line 1: cd: dbt_currency: No such file or directory
+[2024-05-05T11:45:00.764+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-05-05T11:45:00.786+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-05-05T11:45:00.793+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=currency_parsing, task_id=run_dbt, execution_date=20240430T000000, start_date=20240505T114500, end_date=20240505T114500
+[2024-05-05T11:45:00.817+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 2743 for task run_dbt (Bash command failed. The command returned a non-zero exit code 1.; 1512)
+[2024-05-05T11:45:00.856+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-05T11:45:00.904+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

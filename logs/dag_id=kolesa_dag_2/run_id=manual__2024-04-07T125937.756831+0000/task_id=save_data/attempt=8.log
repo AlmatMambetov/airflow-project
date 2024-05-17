@@ -1,0 +1,27 @@
+[2024-04-07T13:07:09.781+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kolesa_dag_2.save_data manual__2024-04-07T12:59:37.756831+00:00 [queued]>
+[2024-04-07T13:07:09.801+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kolesa_dag_2.save_data manual__2024-04-07T12:59:37.756831+00:00 [queued]>
+[2024-04-07T13:07:09.801+0000] {taskinstance.py:2193} INFO - Starting attempt 8 of 8
+[2024-04-07T13:07:09.822+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): save_data> on 2024-04-07 12:59:37.756831+00:00
+[2024-04-07T13:07:09.830+0000] {standard_task_runner.py:60} INFO - Started process 215 to run task
+[2024-04-07T13:07:09.848+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'kolesa_dag_2', 'save_data', 'manual__2024-04-07T12:59:37.756831+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/kolesa_parsing_2.py', '--cfg-path', '/tmp/tmp3p1jwenr']
+[2024-04-07T13:07:09.854+0000] {standard_task_runner.py:88} INFO - Job 71: Subtask save_data
+[2024-04-07T13:07:09.946+0000] {task_command.py:423} INFO - Running <TaskInstance: kolesa_dag_2.save_data manual__2024-04-07T12:59:37.756831+00:00 [running]> on host 5c454e8a8dea
+[2024-04-07T13:07:10.391+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kolesa_dag_2' AIRFLOW_CTX_TASK_ID='save_data' AIRFLOW_CTX_EXECUTION_DATE='2024-04-07T12:59:37.756831+00:00' AIRFLOW_CTX_TRY_NUMBER='8' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-07T12:59:37.756831+00:00'
+[2024-04-07T13:07:10.408+0000] {logging_mixin.py:188} INFO - None
+[2024-04-07T13:07:10.409+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/kolesa_parsing_2.py", line 27, in save_data
+    rows, columns = transformed_data
+TypeError: cannot unpack non-iterable NoneType object
+[2024-04-07T13:07:10.430+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=kolesa_dag_2, task_id=save_data, execution_date=20240407T125937, start_date=20240407T130709, end_date=20240407T130710
+[2024-04-07T13:07:10.452+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 71 for task save_data (cannot unpack non-iterable NoneType object; 215)
+[2024-04-07T13:07:10.504+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-07T13:07:10.532+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

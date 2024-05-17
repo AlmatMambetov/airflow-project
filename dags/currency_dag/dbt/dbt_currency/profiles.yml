@@ -1,0 +1,12 @@
+dbt_currency:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      port: 5488
+      user: postgres
+      password: postgres
+      dbname: postgres
+      schema: intermediate
+      threads: 1

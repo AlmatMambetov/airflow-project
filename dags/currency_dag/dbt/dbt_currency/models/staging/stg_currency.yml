@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: stg_kzt
+    description: Table with kzt currency compared to other currencies
+    columns:
+      - name: title
+        tests:
+          - unique
+  - name: stg_usd
+    description: Table with kzt currency compared to other currencies
+    columns:
+      - name: title
+        tests:
+          - unique
+  - name: stg_pound
+    description: Table with kzt currency compared to other currencies
+    columns:
+      - name: title
+        tests:
+          - unique
+  - name: stg_rub
+    description: Table with kzt currency compared to other currencies
+    columns:
+      - name: title
+        tests:
+          - unique

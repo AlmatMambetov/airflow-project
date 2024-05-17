@@ -1,0 +1,1 @@
+[2024-05-05T12:39:51.366+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: currency_parsing.run_dbt manual__2024-05-05T10:53:33.317366+00:00 [queued]> finished (success) although the task says it's queued. (Info: None) Was the task killed externally?

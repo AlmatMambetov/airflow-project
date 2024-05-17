@@ -1,0 +1,33 @@
+[2024-04-20T14:01:33.826+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing_pound.get_data manual__2024-04-20T14:01:23.073825+00:00 [queued]>
+[2024-04-20T14:01:33.856+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing_pound.get_data manual__2024-04-20T14:01:23.073825+00:00 [queued]>
+[2024-04-20T14:01:33.857+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-20T14:01:33.884+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): get_data> on 2024-04-20 14:01:23.073825+00:00
+[2024-04-20T14:01:33.891+0000] {standard_task_runner.py:60} INFO - Started process 1069 to run task
+[2024-04-20T14:01:33.898+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing_pound', 'get_data', 'manual__2024-04-20T14:01:23.073825+00:00', '--job-id', '868', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_pound.py', '--cfg-path', '/tmp/tmpi1_uob1j']
+[2024-04-20T14:01:33.902+0000] {standard_task_runner.py:88} INFO - Job 868: Subtask get_data
+[2024-04-20T14:01:34.005+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing_pound.get_data manual__2024-04-20T14:01:23.073825+00:00 [running]> on host 31aa6d9ea6ff
+[2024-04-20T14:01:34.087+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:207: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2024-04-20T14:01:34.160+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing_pound' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2024-04-20T14:01:23.073825+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-20T14:01:23.073825+00:00'
+[2024-04-20T14:01:35.032+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/stage/currency_pound.py", line 11, in get_data
+    data = client.historical(f'{year}-{int(month):02d}-{int(day):02d}', base_currency='GBP')
+  File "/home/airflow/.local/lib/python3.8/site-packages/freecurrencyapi/client.py", line 32, in historical
+    return self._request('/historical', params={
+  File "/home/airflow/.local/lib/python3.8/site-packages/everapi/client.py", line 74, in _request
+    raise everapi.exceptions.ApiError(
+everapi.exceptions.ApiError: ('API returned errors:', {'date': ['The date must be a date before or equal to 2024-04-19T14:01:35Z.']})
+[2024-04-20T14:01:35.114+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=currency_parsing_pound, task_id=get_data, execution_date=20240420T140123, start_date=20240420T140133, end_date=20240420T140135
+[2024-04-20T14:01:35.259+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 868 for task get_data (('API returned errors:', {'date': ['The date must be a date before or equal to 2024-04-19T14:01:35Z.']}); 1069)
+[2024-04-20T14:01:35.339+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-20T14:01:35.468+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

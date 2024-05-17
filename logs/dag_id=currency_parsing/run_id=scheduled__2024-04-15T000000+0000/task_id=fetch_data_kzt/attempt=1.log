@@ -1,0 +1,33 @@
+[2024-04-21T11:06:28.932+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_kzt scheduled__2024-04-15T00:00:00+00:00 [queued]>
+[2024-04-21T11:06:29.018+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_kzt scheduled__2024-04-15T00:00:00+00:00 [queued]>
+[2024-04-21T11:06:29.028+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-21T11:06:29.137+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_kzt> on 2024-04-15 00:00:00+00:00
+[2024-04-21T11:06:29.146+0000] {standard_task_runner.py:60} INFO - Started process 2778 to run task
+[2024-04-21T11:06:29.205+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'fetch_data_kzt', 'scheduled__2024-04-15T00:00:00+00:00', '--job-id', '2101', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmpkf578w1o']
+[2024-04-21T11:06:29.228+0000] {standard_task_runner.py:88} INFO - Job 2101: Subtask fetch_data_kzt
+[2024-04-21T11:06:29.883+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.fetch_data_kzt scheduled__2024-04-15T00:00:00+00:00 [running]> on host e671688b1343
+[2024-04-21T11:06:30.714+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='fetch_data_kzt' AIRFLOW_CTX_EXECUTION_DATE='2024-04-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-15T00:00:00+00:00'
+[2024-04-21T11:06:31.071+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-21T11:06:31.146+0000] {sql.py:572} INFO - Done loading. Loaded a total of 39 rows into stage.currency_parsing_kzt
+[2024-04-21T11:06:31.148+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-04-21T11:06:31.358+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=fetch_data_kzt, execution_date=20240415T000000, start_date=20240421T110628, end_date=20240421T110631
+[2024-04-21T11:06:31.698+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-21T11:06:31.847+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-27T12:23:04.629+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_kzt scheduled__2024-04-15T00:00:00+00:00 [queued]>
+[2024-04-27T12:23:05.042+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_kzt scheduled__2024-04-15T00:00:00+00:00 [queued]>
+[2024-04-27T12:23:05.077+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-27T12:23:05.838+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_kzt> on 2024-04-15 00:00:00+00:00
+[2024-04-27T12:23:06.055+0000] {standard_task_runner.py:60} INFO - Started process 2114 to run task
+[2024-04-27T12:23:06.160+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'fetch_data_kzt', 'scheduled__2024-04-15T00:00:00+00:00', '--job-id', '2390', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmpg9tiyd_c']
+[2024-04-27T12:23:06.265+0000] {standard_task_runner.py:88} INFO - Job 2390: Subtask fetch_data_kzt
+[2024-04-27T12:23:08.252+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.fetch_data_kzt scheduled__2024-04-15T00:00:00+00:00 [running]> on host 65a8688265d1
+[2024-04-27T12:23:10.138+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='fetch_data_kzt' AIRFLOW_CTX_EXECUTION_DATE='2024-04-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-15T00:00:00+00:00'
+[2024-04-27T12:23:10.294+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-27T12:23:10.482+0000] {sql.py:572} INFO - Done loading. Loaded a total of 39 rows into stage.currency_parsing_kzt
+[2024-04-27T12:23:10.506+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-04-27T12:23:10.865+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=fetch_data_kzt, execution_date=20240415T000000, start_date=20240427T122304, end_date=20240427T122310
+[2024-04-27T12:23:12.191+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-27T12:23:12.238+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1201: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-04-27T12:23:12.590+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

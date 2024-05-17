@@ -1,0 +1,60 @@
+[2024-04-27T12:26:40.242+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.populate_intermediate_schema scheduled__2024-04-16T00:00:00+00:00 [queued]>
+[2024-04-27T12:26:40.473+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.populate_intermediate_schema scheduled__2024-04-16T00:00:00+00:00 [queued]>
+[2024-04-27T12:26:40.507+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-27T12:26:41.763+0000] {taskinstance.py:2214} INFO - Executing <Task(PostgresOperator): populate_intermediate_schema> on 2024-04-16 00:00:00+00:00
+[2024-04-27T12:26:41.952+0000] {standard_task_runner.py:60} INFO - Started process 2322 to run task
+[2024-04-27T12:26:42.056+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'populate_intermediate_schema', 'scheduled__2024-04-16T00:00:00+00:00', '--job-id', '2475', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmp00ybx48y']
+[2024-04-27T12:26:42.139+0000] {standard_task_runner.py:88} INFO - Job 2475: Subtask populate_intermediate_schema
+[2024-04-27T12:26:42.759+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.populate_intermediate_schema scheduled__2024-04-16T00:00:00+00:00 [running]> on host 65a8688265d1
+[2024-04-27T12:26:43.562+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='populate_intermediate_schema' AIRFLOW_CTX_EXECUTION_DATE='2024-04-16T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-16T00:00:00+00:00'
+[2024-04-27T12:26:43.569+0000] {sql.py:276} INFO - Executing: CREATE TABLE intermediate.currency as
+select f1.currency,
+       f1.title,
+       f1.rate as rate_kzt,
+       f2.value as rate_rub,
+       round(1/f3.rate::numeric, 3) as rate_usd,
+       round(1/f4.rate::numeric, 3) as rate_pound,
+       f1.date
+from stage.currency_parsing_kzt f1
+    left join stage.currency_parsing_rub f2
+        on f1.date = f2.date and f1.title = f2.charcode
+    left join stage.currency_parsing_usd f3
+        on f1.date = f3.date and f1.title = f3.title
+    left join stage.currency_parsing_pound f4
+        on f1.date = f4.date and f1.title = f4.title;
+[2024-04-27T12:26:43.600+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-27T12:26:43.624+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-27T12:26:43.634+0000] {sql.py:457} INFO - Running statement: CREATE TABLE intermediate.currency as
+select f1.currency,
+       f1.title,
+       f1.rate as rate_kzt,
+       f2.value as rate_rub,
+       round(1/f3.rate::numeric, 3) as rate_usd,
+       round(1/f4.rate::numeric, 3) as rate_pound,
+       f1.date
+from stage.currency_parsing_kzt f1
+    left join stage.currency_parsing_rub f2
+        on f1.date = f2.date and f1.title = f2.charcode
+    left join stage.currency_parsing_usd f3
+        on f1.date = f3.date and f1.title = f3.title
+    left join stage.currency_parsing_pound f4
+        on f1.date = f4.date and f1.title = f4.title;, parameters: None
+[2024-04-27T12:26:43.647+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 404, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 462, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.DuplicateTable: relation "currency" already exists
+
+[2024-04-27T12:26:43.671+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=currency_parsing, task_id=populate_intermediate_schema, execution_date=20240416T000000, start_date=20240427T122640, end_date=20240427T122643
+[2024-04-27T12:26:43.712+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 2475 for task populate_intermediate_schema (relation "currency" already exists
+; 2322)
+[2024-04-27T12:26:43.736+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-27T12:26:44.140+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

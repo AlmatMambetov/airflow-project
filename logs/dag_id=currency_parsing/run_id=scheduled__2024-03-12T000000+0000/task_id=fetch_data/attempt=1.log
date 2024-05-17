@@ -1,0 +1,30 @@
+[2024-04-14T08:54:38.050+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.fetch_data scheduled__2024-03-12T00:00:00+00:00 [queued]>
+[2024-04-14T08:54:38.356+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.fetch_data scheduled__2024-03-12T00:00:00+00:00 [queued]>
+[2024-04-14T08:54:38.358+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-14T08:54:38.755+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data> on 2024-03-12 00:00:00+00:00
+[2024-04-14T08:54:38.808+0000] {standard_task_runner.py:60} INFO - Started process 1281 to run task
+[2024-04-14T08:54:38.825+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'fetch_data', 'scheduled__2024-03-12T00:00:00+00:00', '--job-id', '388', '--raw', '--subdir', 'DAGS_FOLDER/currency_parsing.py', '--cfg-path', '/tmp/tmpn82j1sfb']
+[2024-04-14T08:54:38.940+0000] {standard_task_runner.py:88} INFO - Job 388: Subtask fetch_data
+[2024-04-14T08:54:40.283+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.fetch_data scheduled__2024-03-12T00:00:00+00:00 [running]> on host e8a1e0443283
+[2024-04-14T08:54:44.304+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='fetch_data' AIRFLOW_CTX_EXECUTION_DATE='2024-03-12T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-12T00:00:00+00:00'
+[2024-04-14T08:54:44.629+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-14T08:54:45.023+0000] {sql.py:572} INFO - Done loading. Loaded a total of 39 rows into currency_parsing
+[2024-04-14T08:54:45.037+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-04-14T08:54:45.232+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=fetch_data, execution_date=20240312T000000, start_date=20240414T085438, end_date=20240414T085445
+[2024-04-14T08:54:47.139+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-14T08:54:47.356+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-14T10:12:00.267+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.fetch_data scheduled__2024-03-12T00:00:00+00:00 [queued]>
+[2024-04-14T10:12:00.430+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.fetch_data scheduled__2024-03-12T00:00:00+00:00 [queued]>
+[2024-04-14T10:12:00.431+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-14T10:12:00.529+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data> on 2024-03-12 00:00:00+00:00
+[2024-04-14T10:12:00.540+0000] {standard_task_runner.py:60} INFO - Started process 628 to run task
+[2024-04-14T10:12:00.588+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'fetch_data', 'scheduled__2024-03-12T00:00:00+00:00', '--job-id', '713', '--raw', '--subdir', 'DAGS_FOLDER/currency_parsing.py', '--cfg-path', '/tmp/tmpi1huqu3t']
+[2024-04-14T10:12:00.692+0000] {standard_task_runner.py:88} INFO - Job 713: Subtask fetch_data
+[2024-04-14T10:12:01.077+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.fetch_data scheduled__2024-03-12T00:00:00+00:00 [running]> on host 1c15aab9396c
+[2024-04-14T10:12:01.685+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='fetch_data' AIRFLOW_CTX_EXECUTION_DATE='2024-03-12T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-12T00:00:00+00:00'
+[2024-04-14T10:12:01.820+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-14T10:12:01.906+0000] {sql.py:572} INFO - Done loading. Loaded a total of 39 rows into currency_parsing
+[2024-04-14T10:12:01.907+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-04-14T10:12:01.974+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=fetch_data, execution_date=20240312T000000, start_date=20240414T101200, end_date=20240414T101201
+[2024-04-14T10:12:02.246+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-14T10:12:02.576+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

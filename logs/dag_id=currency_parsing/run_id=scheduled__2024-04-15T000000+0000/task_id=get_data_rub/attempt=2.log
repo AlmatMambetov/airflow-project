@@ -1,0 +1,58 @@
+[2024-04-21T11:11:07.886+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.get_data_rub scheduled__2024-04-15T00:00:00+00:00 [queued]>
+[2024-04-21T11:11:07.906+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.get_data_rub scheduled__2024-04-15T00:00:00+00:00 [queued]>
+[2024-04-21T11:11:07.907+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-04-21T11:11:07.932+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): get_data_rub> on 2024-04-15 00:00:00+00:00
+[2024-04-21T11:11:07.940+0000] {standard_task_runner.py:60} INFO - Started process 2896 to run task
+[2024-04-21T11:11:07.946+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'get_data_rub', 'scheduled__2024-04-15T00:00:00+00:00', '--job-id', '2126', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmp5pqb2rzp']
+[2024-04-21T11:11:07.951+0000] {standard_task_runner.py:88} INFO - Job 2126: Subtask get_data_rub
+[2024-04-21T11:11:08.044+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.get_data_rub scheduled__2024-04-15T00:00:00+00:00 [running]> on host e671688b1343
+[2024-04-21T11:11:08.134+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:207: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2024-04-21T11:11:08.196+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='get_data_rub' AIRFLOW_CTX_EXECUTION_DATE='2024-04-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-15T00:00:00+00:00'
+[2024-04-21T11:11:18.848+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/stage/currency_parsing.py", line 37, in get_data_rub
+    currencies_date = datetime.strptime(currency_data['Date'][:10], '%Y-%m-%d')
+KeyError: 'Date'
+[2024-04-21T11:11:18.893+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=currency_parsing, task_id=get_data_rub, execution_date=20240415T000000, start_date=20240421T111107, end_date=20240421T111118
+[2024-04-21T11:11:18.915+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 2126 for task get_data_rub ('Date'; 2896)
+[2024-04-21T11:11:18.956+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-21T11:11:19.027+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-27T12:26:56.166+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.get_data_rub scheduled__2024-04-15T00:00:00+00:00 [queued]>
+[2024-04-27T12:26:56.184+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.get_data_rub scheduled__2024-04-15T00:00:00+00:00 [queued]>
+[2024-04-27T12:26:56.185+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-04-27T12:26:56.209+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): get_data_rub> on 2024-04-15 00:00:00+00:00
+[2024-04-27T12:26:56.216+0000] {standard_task_runner.py:60} INFO - Started process 2328 to run task
+[2024-04-27T12:26:56.222+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'get_data_rub', 'scheduled__2024-04-15T00:00:00+00:00', '--job-id', '2478', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmpvrxudbl8']
+[2024-04-27T12:26:56.226+0000] {standard_task_runner.py:88} INFO - Job 2478: Subtask get_data_rub
+[2024-04-27T12:26:56.315+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.get_data_rub scheduled__2024-04-15T00:00:00+00:00 [running]> on host 65a8688265d1
+[2024-04-27T12:26:56.393+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:207: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2024-04-27T12:26:56.449+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='get_data_rub' AIRFLOW_CTX_EXECUTION_DATE='2024-04-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-15T00:00:00+00:00'
+[2024-04-27T12:27:15.434+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/stage/currency_parsing.py", line 39, in get_data_rub
+    currencies_date = datetime.strptime(currency_data['Date'][:10], '%Y-%m-%d')
+KeyError: 'Date'
+[2024-04-27T12:27:16.288+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=currency_parsing, task_id=get_data_rub, execution_date=20240415T000000, start_date=20240427T122656, end_date=20240427T122716
+[2024-04-27T12:27:19.997+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 2478 for task get_data_rub ('Date'; 2328)
+[2024-04-27T12:27:20.394+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-27T12:27:21.821+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

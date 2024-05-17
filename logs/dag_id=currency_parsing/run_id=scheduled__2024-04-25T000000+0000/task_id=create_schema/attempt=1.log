@@ -1,0 +1,70 @@
+[2024-04-26T10:26:36.432+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.create_schema scheduled__2024-04-25T00:00:00+00:00 [queued]>
+[2024-04-26T10:26:36.482+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.create_schema scheduled__2024-04-25T00:00:00+00:00 [queued]>
+[2024-04-26T10:26:36.484+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-26T10:26:37.036+0000] {taskinstance.py:2214} INFO - Executing <Task(PostgresOperator): create_schema> on 2024-04-25 00:00:00+00:00
+[2024-04-26T10:26:37.083+0000] {standard_task_runner.py:60} INFO - Started process 115 to run task
+[2024-04-26T10:26:37.227+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'create_schema', 'scheduled__2024-04-25T00:00:00+00:00', '--job-id', '2134', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmpiljmrl80']
+[2024-04-26T10:26:37.376+0000] {standard_task_runner.py:88} INFO - Job 2134: Subtask create_schema
+[2024-04-26T10:26:42.617+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.create_schema scheduled__2024-04-25T00:00:00+00:00 [running]> on host 4284c2c978e3
+[2024-04-26T10:26:49.781+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='create_schema' AIRFLOW_CTX_EXECUTION_DATE='2024-04-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-25T00:00:00+00:00'
+[2024-04-26T10:26:49.809+0000] {sql.py:276} INFO - Executing: CREATE SCHEMA if not exists stage;
+[2024-04-26T10:26:49.975+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-26T10:26:50.039+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-26T10:26:50.070+0000] {sql.py:457} INFO - Running statement: CREATE SCHEMA if not exists stage;, parameters: None
+[2024-04-26T10:26:50.083+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/common/sql/hooks/sql.py:407: AirflowProviderDeprecationWarning: Call to deprecated method _make_common_data_structure. (The `_make_serializable` method is deprecated and support will be removed in a future version of the common.sql provider. Please update the DbApiHook's provider to a version based on common.sql >= 1.9.1.)
+  result = self._make_common_data_structure(handler(cur))
+
+[2024-04-26T10:26:50.169+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=create_schema, execution_date=20240425T000000, start_date=20240426T102636, end_date=20240426T102650
+[2024-04-26T10:26:53.315+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-26T10:26:53.360+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1201: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-04-26T10:26:55.470+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-04-26T13:16:02.347+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.create_schema scheduled__2024-04-25T00:00:00+00:00 [queued]>
+[2024-04-26T13:16:02.489+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.create_schema scheduled__2024-04-25T00:00:00+00:00 [queued]>
+[2024-04-26T13:16:02.497+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-26T13:16:02.571+0000] {taskinstance.py:2214} INFO - Executing <Task(PostgresOperator): create_schema> on 2024-04-25 00:00:00+00:00
+[2024-04-26T13:16:02.585+0000] {standard_task_runner.py:60} INFO - Started process 409 to run task
+[2024-04-26T13:16:02.622+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'create_schema', 'scheduled__2024-04-25T00:00:00+00:00', '--job-id', '2200', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmpzf_64ncr']
+[2024-04-26T13:16:02.637+0000] {standard_task_runner.py:88} INFO - Job 2200: Subtask create_schema
+[2024-04-26T13:16:03.104+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.create_schema scheduled__2024-04-25T00:00:00+00:00 [running]> on host 65a8688265d1
+[2024-04-26T13:16:03.735+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='create_schema' AIRFLOW_CTX_EXECUTION_DATE='2024-04-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-25T00:00:00+00:00'
+[2024-04-26T13:16:03.748+0000] {sql.py:276} INFO - Executing: CREATE SCHEMA if not exists stage;
+[2024-04-26T13:16:03.861+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-26T13:16:04.181+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-26T13:16:04.203+0000] {sql.py:457} INFO - Running statement: CREATE SCHEMA if not exists stage;, parameters: None
+[2024-04-26T13:16:04.228+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/common/sql/hooks/sql.py:407: AirflowProviderDeprecationWarning: Call to deprecated method _make_common_data_structure. (The `_make_serializable` method is deprecated and support will be removed in a future version of the common.sql provider. Please update the DbApiHook's provider to a version based on common.sql >= 1.9.1.)
+  result = self._make_common_data_structure(handler(cur))
+
+[2024-04-26T13:16:04.290+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=create_schema, execution_date=20240425T000000, start_date=20240426T131602, end_date=20240426T131604
+[2024-04-26T13:16:04.469+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-26T13:16:04.510+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1201: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-04-26T13:16:04.628+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-04-27T12:29:35.312+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.create_schema scheduled__2024-04-25T00:00:00+00:00 [queued]>
+[2024-04-27T12:29:35.559+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.create_schema scheduled__2024-04-25T00:00:00+00:00 [queued]>
+[2024-04-27T12:29:35.586+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-27T12:29:36.553+0000] {taskinstance.py:2214} INFO - Executing <Task(PostgresOperator): create_schema> on 2024-04-25 00:00:00+00:00
+[2024-04-27T12:29:36.727+0000] {standard_task_runner.py:60} INFO - Started process 2430 to run task
+[2024-04-27T12:29:36.922+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'create_schema', 'scheduled__2024-04-25T00:00:00+00:00', '--job-id', '2511', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmp2mh1uswl']
+[2024-04-27T12:29:36.974+0000] {standard_task_runner.py:88} INFO - Job 2511: Subtask create_schema
+[2024-04-27T12:29:40.326+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.create_schema scheduled__2024-04-25T00:00:00+00:00 [running]> on host 65a8688265d1
+[2024-04-27T12:29:41.998+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='create_schema' AIRFLOW_CTX_EXECUTION_DATE='2024-04-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-25T00:00:00+00:00'
+[2024-04-27T12:29:42.006+0000] {sql.py:276} INFO - Executing: CREATE SCHEMA if not exists stage;
+
+CREATE SCHEMA if not exists intermediate;
+[2024-04-27T12:29:42.053+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-27T12:29:42.125+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-27T12:29:42.139+0000] {sql.py:457} INFO - Running statement: CREATE SCHEMA if not exists stage;
+
+CREATE SCHEMA if not exists intermediate;, parameters: None
+[2024-04-27T12:29:42.151+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/common/sql/hooks/sql.py:407: AirflowProviderDeprecationWarning: Call to deprecated method _make_common_data_structure. (The `_make_serializable` method is deprecated and support will be removed in a future version of the common.sql provider. Please update the DbApiHook's provider to a version based on common.sql >= 1.9.1.)
+  result = self._make_common_data_structure(handler(cur))
+
+[2024-04-27T12:29:42.279+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=create_schema, execution_date=20240425T000000, start_date=20240427T122935, end_date=20240427T122942
+[2024-04-27T12:29:42.708+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-27T12:29:42.745+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1201: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-04-27T12:29:43.178+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

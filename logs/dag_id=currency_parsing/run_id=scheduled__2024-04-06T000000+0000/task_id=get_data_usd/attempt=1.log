@@ -1,0 +1,99 @@
+[2024-04-21T11:04:28.888+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.get_data_usd scheduled__2024-04-06T00:00:00+00:00 [queued]>
+[2024-04-21T11:04:29.013+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.get_data_usd scheduled__2024-04-06T00:00:00+00:00 [queued]>
+[2024-04-21T11:04:29.023+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-21T11:04:29.273+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): get_data_usd> on 2024-04-06 00:00:00+00:00
+[2024-04-21T11:04:29.287+0000] {standard_task_runner.py:60} INFO - Started process 2514 to run task
+[2024-04-21T11:04:29.378+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'get_data_usd', 'scheduled__2024-04-06T00:00:00+00:00', '--job-id', '1975', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmp6fi_z8q8']
+[2024-04-21T11:04:29.429+0000] {standard_task_runner.py:88} INFO - Job 1975: Subtask get_data_usd
+[2024-04-21T11:04:29.849+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.get_data_usd scheduled__2024-04-06T00:00:00+00:00 [running]> on host e671688b1343
+[2024-04-21T11:04:30.597+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:207: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2024-04-21T11:04:30.868+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='get_data_usd' AIRFLOW_CTX_EXECUTION_DATE='2024-04-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-06T00:00:00+00:00'
+[2024-04-21T11:04:31.985+0000] {python.py:202} INFO - Done. Returned value was: ([['AUD', 1.5197502177, '2024-4-5'], ['BGN', 1.7969501946, '2024-4-5'], ['BRL', 5.0665906749, '2024-4-5'], ['CAD', 1.3586102231, '2024-4-5'], ['CHF', 0.9018901188, '2024-4-5'], ['CNY', 7.230481011, '2024-4-5'], ['CZK', 23.3104134238, '2024-4-5'], ['DKK', 6.8806712048, '2024-4-5'], ['EUR', 0.9223601189, '2024-4-5'], ['GBP', 0.7912301488, '2024-4-5'], ['HKD', 7.8256409664, '2024-4-5'], ['HRK', 6.6981208463, '2024-4-5'], ['HUF', 359.718689154, '2024-4-5'], ['IDR', 15818.605034981, '2024-4-5'], ['ILS', 3.7619704943, '2024-4-5'], ['INR', 83.2418245749, '2024-4-5'], ['ISK', 138.6190046986, '2024-4-5'], ['JPY', 151.6133298118, '2024-4-5'], ['KRW', 1349.4613664354, '2024-4-5'], ['MXN', 16.512192272, '2024-4-5'], ['MYR', 4.7443706547, '2024-4-5'], ['NOK', 10.72698151, '2024-4-5'], ['NZD', 1.662510282, '2024-4-5'], ['PHP', 56.4769078856, '2024-4-5'], ['PLN', 3.9487405138, '2024-4-5'], ['RON', 4.5823508848, '2024-4-5'], ['RUB', 92.4437909872, '2024-4-5'], ['SEK', 10.6361520031, '2024-4-5'], ['SGD', 1.3473502571, '2024-4-5'], ['THB', 36.7532049777, '2024-4-5'], ['TRY', 32.0424756614, '2024-4-5'], ['USD', 1, '2024-4-5'], ['ZAR', 18.6397235912, '2024-4-5']], ['title', 'rate', 'date'])
+[2024-04-21T11:04:32.192+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=get_data_usd, execution_date=20240406T000000, start_date=20240421T110428, end_date=20240421T110432
+[2024-04-21T11:04:32.423+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-21T11:04:32.699+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-04-27T12:18:56.695+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.get_data_usd scheduled__2024-04-06T00:00:00+00:00 [queued]>
+[2024-04-27T12:18:56.931+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.get_data_usd scheduled__2024-04-06T00:00:00+00:00 [queued]>
+[2024-04-27T12:18:56.938+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-27T12:18:57.511+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): get_data_usd> on 2024-04-06 00:00:00+00:00
+[2024-04-27T12:18:57.710+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'get_data_usd', 'scheduled__2024-04-06T00:00:00+00:00', '--job-id', '2311', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmp3ovibs3h']
+[2024-04-27T12:18:57.715+0000] {standard_task_runner.py:60} INFO - Started process 1907 to run task
+[2024-04-27T12:18:57.731+0000] {standard_task_runner.py:88} INFO - Job 2311: Subtask get_data_usd
+[2024-04-27T12:18:58.449+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.get_data_usd scheduled__2024-04-06T00:00:00+00:00 [running]> on host 65a8688265d1
+[2024-04-27T12:19:00.771+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:207: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2024-04-27T12:19:04.693+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='get_data_usd' AIRFLOW_CTX_EXECUTION_DATE='2024-04-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-06T00:00:00+00:00'
+[2024-04-27T12:19:05.466+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7faf0d37a5b0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.freecurrencyapi.com', port=443): Max retries exceeded with url: /v1/historical?date=2024-04-05&base_currency=USD&currencies= (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7faf0d37a5b0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/stage/currency_parsing.py", line 22, in get_data_usd
+    currencies_list = get_currency_list(execution_date)
+  File "/opt/airflow/dags/stage/currency_utils.py", line 21, in get_currency_list
+    data = client.historical(f'{year}-{int(month):02d}-{int(day):02d}', base_currency=base_currency)
+  File "/home/airflow/.local/lib/python3.8/site-packages/freecurrencyapi/client.py", line 32, in historical
+    return self._request('/historical', params={
+  File "/home/airflow/.local/lib/python3.8/site-packages/everapi/client.py", line 43, in _request
+    response = requests.request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.freecurrencyapi.com', port=443): Max retries exceeded with url: /v1/historical?date=2024-04-05&base_currency=USD&currencies= (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7faf0d37a5b0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2024-04-27T12:19:06.030+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=currency_parsing, task_id=get_data_usd, execution_date=20240406T000000, start_date=20240427T121856, end_date=20240427T121906
+[2024-04-27T12:19:06.943+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 2311 for task get_data_usd (HTTPSConnectionPool(host='api.freecurrencyapi.com', port=443): Max retries exceeded with url: /v1/historical?date=2024-04-05&base_currency=USD&currencies= (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7faf0d37a5b0>: Failed to establish a new connection: [Errno -2] Name or service not known')); 1907)
+[2024-04-27T12:19:07.031+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-27T12:19:07.231+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1201: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-04-27T12:19:08.507+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

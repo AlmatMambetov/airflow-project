@@ -1,0 +1,252 @@
+[2024-04-26T10:27:33.863+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.create_table scheduled__2024-04-23T00:00:00+00:00 [queued]>
+[2024-04-26T10:27:33.977+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.create_table scheduled__2024-04-23T00:00:00+00:00 [queued]>
+[2024-04-26T10:27:33.980+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-26T10:27:34.377+0000] {taskinstance.py:2214} INFO - Executing <Task(PostgresOperator): create_table> on 2024-04-23 00:00:00+00:00
+[2024-04-26T10:27:34.421+0000] {standard_task_runner.py:60} INFO - Started process 137 to run task
+[2024-04-26T10:27:34.454+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'create_table', 'scheduled__2024-04-23T00:00:00+00:00', '--job-id', '2142', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmp82wpeyrt']
+[2024-04-26T10:27:34.498+0000] {standard_task_runner.py:88} INFO - Job 2142: Subtask create_table
+[2024-04-26T10:27:34.884+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.create_table scheduled__2024-04-23T00:00:00+00:00 [running]> on host 4284c2c978e3
+[2024-04-26T10:27:35.551+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='create_table' AIRFLOW_CTX_EXECUTION_DATE='2024-04-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-23T00:00:00+00:00'
+[2024-04-26T10:27:35.567+0000] {sql.py:276} INFO - Executing: CREATE TABLE IF NOT EXISTS stage.currency_parsing_pound(
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_usd(
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_rub(
+    id VARCHAR(255) NOT NULL,
+    NumCode VARCHAR(255) NOT NULL,
+    CharCode VARCHAR(255),
+    Nominal int,
+    Name VARCHAR(255),
+    Value float,
+    Previous float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_kzt(
+    currency VARCHAR(255) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    quantity int,
+    index VARCHAR(255),
+    change float,
+    date date NOT NULL
+)
+[2024-04-26T10:27:35.645+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-26T10:27:35.720+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-26T10:27:35.783+0000] {sql.py:457} INFO - Running statement: CREATE TABLE IF NOT EXISTS stage.currency_parsing_pound(
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_usd(
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_rub(
+    id VARCHAR(255) NOT NULL,
+    NumCode VARCHAR(255) NOT NULL,
+    CharCode VARCHAR(255),
+    Nominal int,
+    Name VARCHAR(255),
+    Value float,
+    Previous float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_kzt(
+    currency VARCHAR(255) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    quantity int,
+    index VARCHAR(255),
+    change float,
+    date date NOT NULL
+), parameters: None
+[2024-04-26T10:27:35.823+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/common/sql/hooks/sql.py:407: AirflowProviderDeprecationWarning: Call to deprecated method _make_common_data_structure. (The `_make_serializable` method is deprecated and support will be removed in a future version of the common.sql provider. Please update the DbApiHook's provider to a version based on common.sql >= 1.9.1.)
+  result = self._make_common_data_structure(handler(cur))
+
+[2024-04-26T10:27:35.885+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=create_table, execution_date=20240423T000000, start_date=20240426T102733, end_date=20240426T102735
+[2024-04-26T10:27:36.161+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-26T10:27:36.486+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1201: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-04-26T10:27:36.755+0000] {taskinstance.py:3309} INFO - 4 downstream tasks scheduled from follow-on schedule check
+[2024-04-26T13:16:05.860+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.create_table scheduled__2024-04-23T00:00:00+00:00 [queued]>
+[2024-04-26T13:16:05.912+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.create_table scheduled__2024-04-23T00:00:00+00:00 [queued]>
+[2024-04-26T13:16:05.913+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-26T13:16:05.984+0000] {taskinstance.py:2214} INFO - Executing <Task(PostgresOperator): create_table> on 2024-04-23 00:00:00+00:00
+[2024-04-26T13:16:05.996+0000] {standard_task_runner.py:60} INFO - Started process 416 to run task
+[2024-04-26T13:16:06.015+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'create_table', 'scheduled__2024-04-23T00:00:00+00:00', '--job-id', '2204', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmpel1y4qzg']
+[2024-04-26T13:16:06.024+0000] {standard_task_runner.py:88} INFO - Job 2204: Subtask create_table
+[2024-04-26T13:16:06.301+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.create_table scheduled__2024-04-23T00:00:00+00:00 [running]> on host 65a8688265d1
+[2024-04-26T13:16:06.634+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='create_table' AIRFLOW_CTX_EXECUTION_DATE='2024-04-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-23T00:00:00+00:00'
+[2024-04-26T13:16:06.639+0000] {sql.py:276} INFO - Executing: CREATE TABLE IF NOT EXISTS stage.currency_parsing_pound(
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_usd(
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_rub(
+    id VARCHAR(255) NOT NULL,
+    NumCode VARCHAR(255) NOT NULL,
+    CharCode VARCHAR(255),
+    Nominal int,
+    Name VARCHAR(255),
+    Value float,
+    Previous float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_kzt(
+    currency VARCHAR(255) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    quantity int,
+    index VARCHAR(255),
+    change float,
+    date date NOT NULL
+)
+[2024-04-26T13:16:06.700+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-26T13:16:06.731+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-26T13:16:06.744+0000] {sql.py:457} INFO - Running statement: CREATE TABLE IF NOT EXISTS stage.currency_parsing_pound(
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_usd(
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_rub(
+    id VARCHAR(255) NOT NULL,
+    NumCode VARCHAR(255) NOT NULL,
+    CharCode VARCHAR(255),
+    Nominal int,
+    Name VARCHAR(255),
+    Value float,
+    Previous float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_kzt(
+    currency VARCHAR(255) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    quantity int,
+    index VARCHAR(255),
+    change float,
+    date date NOT NULL
+), parameters: None
+[2024-04-26T13:16:06.748+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/common/sql/hooks/sql.py:407: AirflowProviderDeprecationWarning: Call to deprecated method _make_common_data_structure. (The `_make_serializable` method is deprecated and support will be removed in a future version of the common.sql provider. Please update the DbApiHook's provider to a version based on common.sql >= 1.9.1.)
+  result = self._make_common_data_structure(handler(cur))
+
+[2024-04-26T13:16:06.781+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=create_table, execution_date=20240423T000000, start_date=20240426T131605, end_date=20240426T131606
+[2024-04-26T13:16:07.053+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-26T13:16:07.239+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1201: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-04-26T13:16:07.397+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-27T12:29:52.950+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.create_table scheduled__2024-04-23T00:00:00+00:00 [queued]>
+[2024-04-27T12:29:53.147+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.create_table scheduled__2024-04-23T00:00:00+00:00 [queued]>
+[2024-04-27T12:29:53.159+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-27T12:29:53.389+0000] {taskinstance.py:2214} INFO - Executing <Task(PostgresOperator): create_table> on 2024-04-23 00:00:00+00:00
+[2024-04-27T12:29:53.456+0000] {standard_task_runner.py:60} INFO - Started process 2450 to run task
+[2024-04-27T12:29:53.535+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'create_table', 'scheduled__2024-04-23T00:00:00+00:00', '--job-id', '2520', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_parsing.py', '--cfg-path', '/tmp/tmpfq8ce_9m']
+[2024-04-27T12:29:53.623+0000] {standard_task_runner.py:88} INFO - Job 2520: Subtask create_table
+[2024-04-27T12:29:55.636+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.create_table scheduled__2024-04-23T00:00:00+00:00 [running]> on host 65a8688265d1
+[2024-04-27T12:30:00.393+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='create_table' AIRFLOW_CTX_EXECUTION_DATE='2024-04-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-23T00:00:00+00:00'
+[2024-04-27T12:30:00.603+0000] {sql.py:276} INFO - Executing: CREATE TABLE IF NOT EXISTS stage.currency_parsing_pound(
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_usd(
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_rub(
+    id VARCHAR(255) NOT NULL,
+    NumCode VARCHAR(255) NOT NULL,
+    CharCode VARCHAR(255),
+    Nominal int,
+    Name VARCHAR(255),
+    Value float,
+    Previous float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_kzt(
+    currency VARCHAR(255) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    quantity int,
+    index VARCHAR(255),
+    change float,
+    date date NOT NULL
+)
+[2024-04-27T12:30:02.174+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-27T12:30:02.496+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-27T12:30:02.964+0000] {sql.py:457} INFO - Running statement: CREATE TABLE IF NOT EXISTS stage.currency_parsing_pound(
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_usd(
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_rub(
+    id VARCHAR(255) NOT NULL,
+    NumCode VARCHAR(255) NOT NULL,
+    CharCode VARCHAR(255),
+    Nominal int,
+    Name VARCHAR(255),
+    Value float,
+    Previous float,
+    date date NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stage.currency_parsing_kzt(
+    currency VARCHAR(255) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    rate float,
+    quantity int,
+    index VARCHAR(255),
+    change float,
+    date date NOT NULL
+), parameters: None
+[2024-04-27T12:30:03.580+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/common/sql/hooks/sql.py:407: AirflowProviderDeprecationWarning: Call to deprecated method _make_common_data_structure. (The `_make_serializable` method is deprecated and support will be removed in a future version of the common.sql provider. Please update the DbApiHook's provider to a version based on common.sql >= 1.9.1.)
+  result = self._make_common_data_structure(handler(cur))
+
+[2024-04-27T12:30:04.571+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=create_table, execution_date=20240423T000000, start_date=20240427T122952, end_date=20240427T123004
+[2024-04-27T12:30:06.161+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-27T12:30:08.570+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1201: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-04-27T12:30:09.399+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

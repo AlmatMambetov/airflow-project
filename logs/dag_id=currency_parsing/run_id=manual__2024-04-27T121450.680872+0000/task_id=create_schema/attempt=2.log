@@ -1,0 +1,2 @@
+[2024-04-27T12:29:14.380+0000] {taskinstance.py:1969} INFO - Dependencies not met for <TaskInstance: currency_parsing.create_schema manual__2024-04-27T12:14:50.680872+00:00 [skipped]>, dependency 'Task Instance State' FAILED: Task is in the 'skipped' state.
+[2024-04-27T12:29:14.445+0000] {local_task_job_runner.py:160} INFO - Task is not able to be run

@@ -1,0 +1,26 @@
+[2024-04-26T10:33:37.448+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing_kzt.fetch_data scheduled__2024-04-21T00:00:00+00:00 [queued]>
+[2024-04-26T10:33:37.560+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing_kzt.fetch_data scheduled__2024-04-21T00:00:00+00:00 [queued]>
+[2024-04-26T10:33:37.562+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-04-26T10:33:37.711+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data> on 2024-04-21 00:00:00+00:00
+[2024-04-26T10:33:37.755+0000] {standard_task_runner.py:60} INFO - Started process 296 to run task
+[2024-04-26T10:33:37.764+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing_kzt', 'fetch_data', 'scheduled__2024-04-21T00:00:00+00:00', '--job-id', '2188', '--raw', '--subdir', 'DAGS_FOLDER/stage/currency_kzt.py', '--cfg-path', '/tmp/tmpuf0fcqee']
+[2024-04-26T10:33:37.819+0000] {standard_task_runner.py:88} INFO - Job 2188: Subtask fetch_data
+[2024-04-26T10:33:38.528+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing_kzt.fetch_data scheduled__2024-04-21T00:00:00+00:00 [running]> on host 4284c2c978e3
+[2024-04-26T10:33:39.802+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing_kzt' AIRFLOW_CTX_TASK_ID='fetch_data' AIRFLOW_CTX_EXECUTION_DATE='2024-04-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-21T00:00:00+00:00'
+[2024-04-26T10:33:39.895+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/stage/currency_kzt.py", line 36, in fetch_data
+    rows, fields = transformed_data
+TypeError: cannot unpack non-iterable NoneType object
+[2024-04-26T10:33:40.451+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=currency_parsing_kzt, task_id=fetch_data, execution_date=20240421T000000, start_date=20240426T103337, end_date=20240426T103340
+[2024-04-26T10:33:40.665+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 2188 for task fetch_data (cannot unpack non-iterable NoneType object; 296)
+[2024-04-26T10:33:40.815+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-26T10:33:41.243+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

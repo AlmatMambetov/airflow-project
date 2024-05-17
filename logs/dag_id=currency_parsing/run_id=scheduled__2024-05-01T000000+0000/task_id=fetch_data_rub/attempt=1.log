@@ -1,0 +1,50 @@
+[2024-05-02T08:21:12.750+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-05-01T00:00:00+00:00 [queued]>
+[2024-05-02T08:21:12.766+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-05-01T00:00:00+00:00 [queued]>
+[2024-05-02T08:21:12.767+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-02T08:21:12.790+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_rub> on 2024-05-01 00:00:00+00:00
+[2024-05-02T08:21:12.797+0000] {standard_task_runner.py:60} INFO - Started process 970 to run task
+[2024-05-02T08:21:12.803+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'fetch_data_rub', 'scheduled__2024-05-01T00:00:00+00:00', '--job-id', '2633', '--raw', '--subdir', 'DAGS_FOLDER/currency_dag/currency_parsing.py', '--cfg-path', '/tmp/tmp_xo_wum8']
+[2024-05-02T08:21:12.806+0000] {standard_task_runner.py:88} INFO - Job 2633: Subtask fetch_data_rub
+[2024-05-02T08:21:12.941+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-05-01T00:00:00+00:00 [running]> on host 71addd39200f
+[2024-05-02T08:21:13.087+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='fetch_data_rub' AIRFLOW_CTX_EXECUTION_DATE='2024-05-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-01T00:00:00+00:00'
+[2024-05-02T08:21:13.130+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-05-02T08:21:13.141+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/currency_dag/currency_parsing.py", line 86, in fetch_data_rub
+    dwh_hook.insert_rows(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 565, in insert_rows
+    cur.execute(sql, values)
+psycopg2.errors.UndefinedTable: relation "stage.currency_rub" does not exist
+LINE 1: INSERT INTO stage.currency_rub (title, rate, date) VALUES ('...
+                    ^
+
+[2024-05-02T08:21:13.160+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=currency_parsing, task_id=fetch_data_rub, execution_date=20240501T000000, start_date=20240502T082112, end_date=20240502T082113
+[2024-05-02T08:21:13.183+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 2633 for task fetch_data_rub (relation "stage.currency_rub" does not exist
+LINE 1: INSERT INTO stage.currency_rub (title, rate, date) VALUES ('...
+                    ^
+; 970)
+[2024-05-02T08:21:13.217+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-02T08:21:13.250+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-05T10:55:18.126+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-05-01T00:00:00+00:00 [queued]>
+[2024-05-05T10:55:18.442+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-05-01T00:00:00+00:00 [queued]>
+[2024-05-05T10:55:18.451+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-05T10:55:18.564+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_rub> on 2024-05-01 00:00:00+00:00
+[2024-05-05T10:55:18.585+0000] {standard_task_runner.py:60} INFO - Started process 763 to run task
+[2024-05-05T10:55:18.625+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'currency_parsing', 'fetch_data_rub', 'scheduled__2024-05-01T00:00:00+00:00', '--job-id', '2701', '--raw', '--subdir', 'DAGS_FOLDER/currency_dag/currency_parsing.py', '--cfg-path', '/tmp/tmpf57k1us0']
+[2024-05-05T10:55:18.643+0000] {standard_task_runner.py:88} INFO - Job 2701: Subtask fetch_data_rub
+[2024-05-05T10:55:19.873+0000] {task_command.py:423} INFO - Running <TaskInstance: currency_parsing.fetch_data_rub scheduled__2024-05-01T00:00:00+00:00 [running]> on host 71addd39200f
+[2024-05-05T10:55:22.356+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_parsing' AIRFLOW_CTX_TASK_ID='fetch_data_rub' AIRFLOW_CTX_EXECUTION_DATE='2024-05-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-01T00:00:00+00:00'
+[2024-05-05T10:55:22.858+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-05-05T10:55:23.057+0000] {sql.py:572} INFO - Done loading. Loaded a total of 33 rows into stage.currency_rub
+[2024-05-05T10:55:23.059+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-05-05T10:55:23.137+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=currency_parsing, task_id=fetch_data_rub, execution_date=20240501T000000, start_date=20240505T105518, end_date=20240505T105523
+[2024-05-05T10:55:23.591+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-05T10:55:24.379+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

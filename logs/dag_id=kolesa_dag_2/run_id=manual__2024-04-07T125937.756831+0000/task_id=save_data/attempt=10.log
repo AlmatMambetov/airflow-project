@@ -1,0 +1,39 @@
+[2024-04-10T12:40:31.591+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kolesa_dag_2.save_data manual__2024-04-07T12:59:37.756831+00:00 [queued]>
+[2024-04-10T12:40:31.622+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kolesa_dag_2.save_data manual__2024-04-07T12:59:37.756831+00:00 [queued]>
+[2024-04-10T12:40:31.633+0000] {taskinstance.py:2193} INFO - Starting attempt 10 of 10
+[2024-04-10T12:40:31.680+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): save_data> on 2024-04-07 12:59:37.756831+00:00
+[2024-04-10T12:40:31.698+0000] {standard_task_runner.py:60} INFO - Started process 1744 to run task
+[2024-04-10T12:40:31.710+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'kolesa_dag_2', 'save_data', 'manual__2024-04-07T12:59:37.756831+00:00', '--job-id', '75', '--raw', '--subdir', 'DAGS_FOLDER/kolesa_parsing_2.py', '--cfg-path', '/tmp/tmpl9c4vt05']
+[2024-04-10T12:40:31.717+0000] {standard_task_runner.py:88} INFO - Job 75: Subtask save_data
+[2024-04-10T12:40:33.036+0000] {task_command.py:423} INFO - Running <TaskInstance: kolesa_dag_2.save_data manual__2024-04-07T12:59:37.756831+00:00 [running]> on host e6121d56b4f2
+[2024-04-10T12:40:33.162+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kolesa_dag_2' AIRFLOW_CTX_TASK_ID='save_data' AIRFLOW_CTX_EXECUTION_DATE='2024-04-07T12:59:37.756831+00:00' AIRFLOW_CTX_TRY_NUMBER='10' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-07T12:59:37.756831+00:00'
+[2024-04-10T12:40:33.180+0000] {logging_mixin.py:188} INFO - (['Toyota', 'Alphard', 2004, 7500000, 'литые диски, люк, спойлер, ветровики, багажник, фаркоп, ксенон, дневные ходовые огни, противотуманки, омыватель фар, алькантара, аудиосистема, встроенный телефон, bluetooth, CD, CD-чейнджер, MP3, USB, DVD, DVD-чейнджер, ГУР, ABS, SRS, зимний режим, климат-контроль, налог уплачен, техосмотр пройден, вложений не требует', 'Zhalagash', '2002 - 2005 1 поколение (H1)', 'минивэн', 3.0, '188953', 'км', 'автомат', 'полный привод', 'справа', 'белый металлик', True], ['mark', 'model', 'year', 'price', 'description', 'city', 'generation', 'body', 'engine_volume', 'mileage', 'unit', 'transmission', 'drive_unit', 'steering_wheel', 'color', 'is_customized'])
+[2024-04-10T12:40:33.180+0000] {logging_mixin.py:188} INFO - ___________________
+[2024-04-10T12:40:33.181+0000] {logging_mixin.py:188} INFO - Alphard
+[2024-04-10T12:40:33.182+0000] {logging_mixin.py:188} INFO - ['mark', 'model', 'year', 'price', 'description', 'city', 'generation', 'body', 'engine_volume', 'mileage', 'unit', 'transmission', 'drive_unit', 'steering_wheel', 'color', 'is_customized']
+[2024-04-10T12:40:33.196+0000] {base.py:83} INFO - Using connection ID 'dwh' for task execution.
+[2024-04-10T12:40:33.306+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/kolesa_parsing_2.py", line 33, in save_data
+    dwh_hook.insert_rows(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 565, in insert_rows
+    cur.execute(sql, values)
+psycopg2.errors.UndefinedTable: relation "kolesa_parsing" does not exist
+LINE 1: INSERT INTO kolesa_parsing  VALUES ('T','o','y','o','t','a')
+                    ^
+
+[2024-04-10T12:40:33.331+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=kolesa_dag_2, task_id=save_data, execution_date=20240407T125937, start_date=20240410T124031, end_date=20240410T124033
+[2024-04-10T12:40:33.360+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 75 for task save_data (relation "kolesa_parsing" does not exist
+LINE 1: INSERT INTO kolesa_parsing  VALUES ('T','o','y','o','t','a')
+                    ^
+; 1744)
+[2024-04-10T12:40:33.382+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-10T12:40:33.414+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

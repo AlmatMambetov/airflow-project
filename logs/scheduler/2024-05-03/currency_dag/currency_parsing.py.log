@@ -1,0 +1,154 @@
+[2024-05-03T12:45:37.581+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:45:37.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:45:37.640+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:45:37.640+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:45:39.856+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:45:40.057+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:45:40.056+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:45:40.221+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:45:40.221+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:45:40.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 2.891 seconds
+[2024-05-03T12:46:14.653+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:46:14.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:46:14.833+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:46:14.773+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:46:18.130+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:46:19.142+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:46:19.140+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:46:19.466+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:46:19.466+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:46:20.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 6.351 seconds
+[2024-05-03T12:46:52.324+0000] {processor.py:161} INFO - Started process (PID=119) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:46:52.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:46:52.354+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:46:52.338+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:46:53.441+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:46:53.642+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:46:53.640+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:46:53.826+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:46:53.823+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:46:53.901+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 1.625 seconds
+[2024-05-03T12:47:24.577+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:47:24.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:47:24.583+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:47:24.582+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:47:24.858+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:47:24.901+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:47:24.900+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:47:24.936+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:47:24.935+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:47:24.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 0.395 seconds
+[2024-05-03T12:47:55.099+0000] {processor.py:161} INFO - Started process (PID=142) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:47:55.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:47:55.103+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:47:55.103+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:47:55.320+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:47:55.362+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:47:55.361+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:47:55.394+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:47:55.394+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:47:55.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 0.328 seconds
+[2024-05-03T12:48:25.932+0000] {processor.py:161} INFO - Started process (PID=152) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:48:25.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:48:25.946+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:48:25.946+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:48:27.532+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:48:27.744+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:48:27.743+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:48:28.054+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:48:28.053+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:48:28.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 2.317 seconds
+[2024-05-03T12:48:58.981+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:48:58.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:48:58.987+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:48:58.986+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:48:59.263+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:48:59.309+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:48:59.309+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:48:59.348+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:48:59.348+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:48:59.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 0.405 seconds
+[2024-05-03T12:49:29.449+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:49:29.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:49:29.454+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:49:29.454+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:49:29.710+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:49:29.749+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:49:29.748+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:49:29.782+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:49:29.781+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:49:29.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 0.367 seconds
+[2024-05-03T12:50:00.523+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:50:00.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:50:00.529+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:50:00.529+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:50:00.853+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:50:00.898+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:50:00.897+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:50:00.937+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:50:00.936+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:50:00.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 0.452 seconds
+[2024-05-03T12:50:33.011+0000] {processor.py:161} INFO - Started process (PID=199) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:50:33.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:50:33.017+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:50:33.016+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:50:33.468+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:50:33.520+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:50:33.519+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:50:33.575+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:50:33.574+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:50:33.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 0.610 seconds
+[2024-05-03T12:51:03.881+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:51:03.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:51:03.901+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:51:03.901+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:51:04.390+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:51:04.482+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:51:04.481+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:51:04.557+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:51:04.556+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:51:04.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 0.733 seconds
+[2024-05-03T12:51:36.080+0000] {processor.py:161} INFO - Started process (PID=221) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:51:36.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:51:36.118+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:51:36.117+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:51:37.840+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:51:37.953+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:51:37.952+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:51:38.023+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:51:38.022+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:51:38.990+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 2.978 seconds
+[2024-05-03T12:52:09.569+0000] {processor.py:161} INFO - Started process (PID=232) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:52:09.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:52:09.574+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:52:09.574+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:52:10.269+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:52:10.324+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:52:10.323+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:52:10.390+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:52:10.390+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:52:10.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 1.105 seconds
+[2024-05-03T12:52:41.299+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:52:41.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:52:41.305+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:52:41.304+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:52:42.120+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:52:42.223+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:52:42.222+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:52:42.350+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:52:42.349+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:52:42.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 1.464 seconds
+[2024-05-03T12:53:13.389+0000] {processor.py:161} INFO - Started process (PID=255) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:53:13.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:53:13.402+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:53:13.401+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:53:13.922+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:53:14.114+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:53:14.113+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:53:14.243+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:53:14.242+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:53:14.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 0.991 seconds
+[2024-05-03T12:53:45.702+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:53:45.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:53:45.741+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:53:45.740+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:53:48.160+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:53:48.439+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:53:48.438+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:53:48.706+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:53:48.705+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:53:48.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 3.218 seconds
+[2024-05-03T12:54:20.029+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:54:20.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:54:20.066+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:54:20.065+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:54:21.295+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:54:21.448+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:54:21.447+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:54:21.659+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:54:21.658+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:54:22.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 2.068 seconds
+[2024-05-03T12:54:53.078+0000] {processor.py:161} INFO - Started process (PID=294) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:54:53.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:54:53.098+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:54:53.097+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:54:54.711+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:54:54.909+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:54:54.908+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:54:55.025+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:54:55.025+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:54:56.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 3.630 seconds
+[2024-05-03T12:55:27.806+0000] {processor.py:161} INFO - Started process (PID=305) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:55:27.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:55:27.813+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:55:27.812+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:55:34.607+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:55:35.676+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:55:35.624+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:55:36.105+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:55:36.105+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:55:36.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 8.748 seconds
+[2024-05-03T12:56:27.843+0000] {processor.py:161} INFO - Started process (PID=322) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:56:27.851+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:56:27.883+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:56:27.867+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:56:33.256+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:56:33.870+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:56:33.869+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:56:34.435+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:56:34.434+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:56:35.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 7.492 seconds
+[2024-05-03T12:57:08.833+0000] {processor.py:161} INFO - Started process (PID=333) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:57:09.241+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:57:09.277+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:57:09.276+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:57:27.364+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:57:31.408+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:57:31.407+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:57:35.544+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:57:35.540+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:57:37.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 29.355 seconds
+[2024-05-03T12:58:08.484+0000] {processor.py:161} INFO - Started process (PID=351) to work on /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:58:08.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_dag/currency_parsing.py for tasks to queue
+[2024-05-03T12:58:08.591+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:58:08.584+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:58:11.258+0000] {processor.py:840} INFO - DAG(s) 'currency_parsing' retrieved from /opt/airflow/dags/currency_dag/currency_parsing.py
+[2024-05-03T12:58:11.989+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:58:11.988+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-03T12:58:12.520+0000] {logging_mixin.py:188} INFO - [2024-05-03T12:58:12.520+0000] {dag.py:3834} INFO - Setting next_dagrun for currency_parsing to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T12:58:12.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_dag/currency_parsing.py took 4.398 seconds

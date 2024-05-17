@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: stage
+    database: postgres
+    schema: stage
+    tables:
+      - name: currency_kzt
+      - name: currency_rub
+      - name: currency_usd
+      - name: currency_pound
